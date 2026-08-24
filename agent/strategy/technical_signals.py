@@ -68,7 +68,9 @@ def weekly_trend_filter(daily_index: pd.DatetimeIndex, weekly_df: pd.DataFrame,
     weekly_available_at = weekly_df.index + pd.Timedelta(days=7)
 
     weekly_signal_df = pd.DataFrame({"date": weekly_available_at, "bullish": bullish.values}).sort_values("date")
+    weekly_signal_df["date"] = weekly_signal_df["date"].astype("datetime64[ns]")
     daily_df = pd.DataFrame({"date": daily_index}).sort_values("date")
+    daily_df["date"] = daily_df["date"].astype("datetime64[ns]")
     merged = pd.merge_asof(daily_df, weekly_signal_df, on="date", direction="backward")
     merged["bullish"] = merged["bullish"].fillna(False).astype(bool)
     return pd.Series(merged["bullish"].values, index=pd.DatetimeIndex(merged["date"]))
