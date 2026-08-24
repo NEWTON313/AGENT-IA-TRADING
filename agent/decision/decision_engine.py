@@ -61,9 +61,13 @@ def decide(
         # SELL : le signal TA a basculé baissier -> on sort si on est en position.
         # HOLD sans position ouverte : rien à faire.
         action = "SELL" if signal.ta_signal == "SELL" else "HOLD"
+        if action == "SELL":
+            reason = "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
+        else:
+            reason = "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
         return Decision(
             asset=signal.asset, action=action, size_units=0.0, entry_price=signal.close,
-            stop_price=None, reason=f"Signal TA = {signal.ta_signal}",
+            stop_price=None, reason=reason,
             ta_signal=signal.ta_signal, sentiment_score=sentiment.score, sentiment_reason=sentiment.reason,
         )
 

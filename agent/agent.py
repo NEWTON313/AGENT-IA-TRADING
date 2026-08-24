@@ -5,9 +5,12 @@ actualités, applique les garde-fous de risque, prend une décision, et
 l'applique au portefeuille de paper-trading. Aucun ordre réel n'est envoyé.
 """
 
+import json
 import logging
+from datetime import datetime, timezone
 
 from agent import config
+from agent.dashboard_generator import write_dashboard
 from agent.data.market_data import get_market_data
 from agent.decision.decision_engine import decide
 from agent.execution.paper_broker import (
@@ -34,6 +37,7 @@ def run_once() -> None:
 
     last_prices: dict[str, float] = {}
     decisions = []
+    cycle_snapshot = {"timestamp": datetime.now(timezone.utc).isoformat(), "assets": {}}
 
     for asset in config.ASSETS:
         try:
@@ -65,16 +69,33 @@ def run_once() -> None:
             f"({sentiment.n_articles} art.) -> {decision.action} | {decision.reason}"
         )
 
+        cycle_snapshot["assets"][asset] = {
+            "price": last_prices[asset],
+            "ta_signal": signal.ta_signal,
+            "sentiment_score": sentiment.score,
+            "sentiment_reason": sentiment.reason,
+            "n_articles": sentiment.n_articles,
+            "action": decision.action,
+            "reason": decision.reason,
+        }
+
         state = apply_decision(state, decision)
 
     state = update_peak_equity(state, last_prices)
     save_state(state)
+
+    with open(config.LATEST_CYCLE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cycle_snapshot, f, indent=2, ensure_ascii=False)
 
     equity = current_equity(state, last_prices)
     logger.info(
         f"Équity portefeuille : {equity:.2f}$ (cash={state.cash:.2f}$, "
         f"{len(state.positions)} position(s) ouverte(s), pic={state.peak_equity:.2f}$)"
     )
+
+    write_dashboard()
+    logger.info(f"Dashboard régénéré -> {config.DASHBOARD_OUTPUT_FILE}")
+
     logger.info("=== Fin du cycle ===")
 
 

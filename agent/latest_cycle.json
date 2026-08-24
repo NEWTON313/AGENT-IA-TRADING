@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-08-24T15:25:19.820499+00:00",
+  "assets": {
+    "BTC/USD": {
+      "price": 79903.45,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.6,
+      "sentiment_reason": "Forte hausse du BTC vers 78-80K, afflux record dans les ETF et reprise technique, malgré un scepticisme isolé sur la durabilité du rally.",
+      "n_articles": 10,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    },
+    "ETH/USD": {
+      "price": 2529.41,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.35,
+      "sentiment_reason": "Achats institutionnels massifs (Bitmine) et forte performance d'ETH face à BTC compensent l'impact négatif de l'exploit sur Term Finance.",
+      "n_articles": 5,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    },
+    "SOL/USD": {
+      "price": 97.4,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.35,
+      "sentiment_reason": "La proposition d'augmenter les burns de SOL est un signal positif pour la rareté du token, tandis que la consolidation du marché crypto reste globalement neutre.",
+      "n_articles": 2,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    },
+    "XRP/USD": {
+      "price": 1.5248,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.7,
+      "sentiment_reason": "L'article rapporte une hausse hebdomadaire majeure de XRP, signalant un sentiment de marché positif.",
+      "n_articles": 1,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    }
+  }
+}

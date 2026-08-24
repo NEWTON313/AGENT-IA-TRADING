@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sentinel Crypto</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%2220%22 font-size=%2220%22>🛡️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink-950: #0e1a1d; --ink-900: #16262a;
+    --paper-0: #f5f2ea; --paper-50: #ece7db;
+    --line: #d8d2c2; --text: #1c2b2e; --text-dim: #5a6a68;
+    --surface: #ffffff; --surface-raised: #fbfaf6;
+    --accent: #2f8f86; --accent-ink: #ffffff;
+    --bullish: #2f7a45; --bullish-bg: #e3efe4;
+    --bearish: #b8392f; --bearish-bg: #f5e4e1;
+    --amber: #93650f; --amber-bg: #f2e8d3;
+    --shadow: 0 1px 2px rgba(14,26,29,.06), 0 8px 24px -12px rgba(14,26,29,.18);
+    --radius: 14px; font-variant-numeric: tabular-nums;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --text: #eaf1ef; --text-dim: #9db0ac; --surface: #16262a; --surface-raised: #1b2f33;
+      --line: #2a3d40; --bullish: #6fce8c; --bullish-bg: #1c3324; --bearish: #e8897d;
+      --bearish-bg: #3a221f; --amber: #e0b45c; --amber-bg: #3a2f18; --accent: #4db3a8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --text: #eaf1ef; --text-dim: #9db0ac; --surface: #16262a; --surface-raised: #1b2f33;
+    --line: #2a3d40; --bullish: #6fce8c; --bullish-bg: #1c3324; --bearish: #e8897d;
+    --bearish-bg: #3a221f; --amber: #e0b45c; --amber-bg: #3a2f18; --accent: #4db3a8;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper-0); color: var(--text); font-family: "Manrope", system-ui, sans-serif; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  :root:not([data-theme="light"]) body { background: var(--ink-950); }
+  :root[data-theme="dark"] body { background: var(--ink-950); }
+  .wrap { max-width: 960px; margin: 0 auto; padding: clamp(16px,4vw,40px) clamp(16px,4vw,32px) 64px; display: flex; flex-direction: column; gap: clamp(24px,4vw,36px); }
+  header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-mark { width: 40px; height: 40px; border-radius: 10px; background: var(--accent); color: var(--accent-ink); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .brand-mark svg { width: 22px; height: 22px; }
+  h1 { font-family: "Sora", system-ui, sans-serif; font-size: clamp(22px,3.4vw,28px); font-weight: 700; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+  .tagline { margin: 2px 0 0; color: var(--text-dim); font-size: 13.5px; }
+  .run-status { text-align: right; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--text-dim); line-height: 1.6; }
+  .run-status strong { color: var(--text); font-weight: 500; }
+  .pulse { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--bullish); margin-right: 6px; box-shadow: 0 0 0 3px var(--bullish-bg); }
+  .section-label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-dim); margin: 0 0 12px; }
+  .stat-strip { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .stat { background: var(--surface); padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; }
+  .stat-label { font-size: 12px; color: var(--text-dim); }
+  .stat-value { font-family: "IBM Plex Mono", monospace; font-size: clamp(18px,2.6vw,22px); font-weight: 600; letter-spacing: -0.01em; }
+  .stat-sub { font-size: 11.5px; color: var(--text-dim); }
+  .asset-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; }
+  .asset-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 14px; }
+  .asset-head { display: flex; align-items: center; justify-content: space-between; }
+  .asset-name { font-family: "Sora", sans-serif; font-weight: 600; font-size: 16px; }
+  .asset-price { font-family: "IBM Plex Mono", monospace; font-size: 13.5px; color: var(--text-dim); }
+  .chip { display: inline-flex; align-items: center; gap: 5px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-weight: 500; letter-spacing: .03em; padding: 4px 9px; border-radius: 999px; text-transform: uppercase; width: fit-content; }
+  .chip.sell { background: var(--bearish-bg); color: var(--bearish); }
+  .chip.buy { background: var(--bullish-bg); color: var(--bullish); }
+  .chip.hold { background: var(--amber-bg); color: var(--amber); }
+  .chip::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .sentiment-row { display: flex; flex-direction: column; gap: 6px; }
+  .sentiment-label { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-dim); }
+  .sentiment-label .val { font-family: "IBM Plex Mono", monospace; color: var(--text); font-weight: 500; }
+  .gauge { position: relative; height: 6px; border-radius: 999px; background: var(--paper-50); overflow: hidden; }
+  :root:not([data-theme="light"]) .gauge, :root[data-theme="dark"] .gauge { background: var(--ink-900); }
+  .gauge-fill { position: absolute; top: 0; bottom: 0; border-radius: 999px; }
+  .gauge-mid { position: absolute; top: -3px; bottom: -3px; left: 50%; width: 1px; background: var(--line); }
+  .asset-note { font-size: 12.5px; color: var(--text-dim); border-top: 1px solid var(--line); padding-top: 12px; }
+  .asset-note .n { color: var(--text); }
+  .log-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+  .empty-log { padding: 32px 20px; text-align: center; color: var(--text-dim); font-size: 13.5px; }
+  .empty-log strong { display: block; color: var(--text); font-family: "Sora", sans-serif; font-weight: 600; font-size: 14.5px; margin-bottom: 4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  th { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); font-weight: 500; }
+  td.num { font-family: "IBM Plex Mono", monospace; }
+  .table-scroll { overflow-x: auto; }
+  .strategy-panel { background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 24px; }
+  @media (max-width: 640px) { .strategy-panel { grid-template-columns: 1fr; } }
+  .strategy-panel h2 { font-family: "Sora", sans-serif; font-size: 16px; margin: 0 0 8px; font-weight: 600; }
+  .strategy-panel p { margin: 0; font-size: 13.5px; color: var(--text-dim); }
+  .rule-list { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
+  .rule-list li { display: flex; gap: 8px; }
+  .rule-list .k { color: var(--text-dim); min-width: 108px; flex-shrink: 0; }
+  .rule-list .v { font-family: "IBM Plex Mono", monospace; }
+  .metric-row { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 14px; }
+  .metric { display: flex; flex-direction: column; }
+  .metric .v { font-family: "IBM Plex Mono", monospace; font-size: 17px; font-weight: 600; }
+  .metric .k { font-size: 11px; color: var(--text-dim); }
+  footer { text-align: center; font-size: 11.5px; color: var(--text-dim); font-family: "IBM Plex Mono", monospace; }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5.2 3.4 9.7 8 11 4.6-1.3 8-5.8 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+      </div>
+      <div>
+        <h1>Sentinel</h1>
+        <p class="tagline">Agent crypto — Weekly EMA10 + Daily Supertrend · paper trading uniquement</p>
+      </div>
+    </div>
+    <div class="run-status">
+      <div><span class="pulse"></span><strong>Dernier cycle</strong> — 24 Aug 2026, 15:25 UTC</div>
+      <div>Cycle automatique quotidien · 00:05 UTC · GitHub Actions</div>
+    </div>
+  </header>
+
+  <section>
+    <p class="section-label">Portefeuille (paper trading)</p>
+    <div class="stat-strip">
+      <div class="stat">
+        <span class="stat-label">Équité totale</span>
+        <span class="stat-value">10 000,00 $</span>
+        <span class="stat-sub">+0.00 % depuis le départ</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Cash disponible</span>
+        <span class="stat-value">10 000,00 $</span>
+        <span class="stat-sub">100 % du portefeuille</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Positions ouvertes</span>
+        <span class="stat-value">0 / 4</span>
+        <span class="stat-sub">max. concurrentes</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Pic d'équité</span>
+        <span class="stat-value">10 000,00 $</span>
+        <span class="stat-sub">drawdown 0.0 %</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">Actifs suivis</p>
+    <div class="asset-grid">
+
+      <article class="asset-card">
+        <div class="asset-head">
+          <span class="asset-name">BTC/USD</span>
+          <span class="asset-price">79 903,45 $</span>
+        </div>
+        <span class="chip hold">Signal · Hold</span>
+        <div class="sentiment-row">
+          <div class="sentiment-label"><span>Sentiment news (10 articles)</span><span class="val">+0.60</span></div>
+          <div class="gauge"><div class="gauge-mid"></div><div class="gauge-fill" style="left:50.0%; width:30.0%; background:var(--bullish);"></div></div>
+        </div>
+        <p class="asset-note">Aucune position — <span class="n">Pas de croisement Supertrend haussier confirmé aujourd&#x27;hui — l&#x27;agent surveille.</span></p>
+      </article>
+
+      <article class="asset-card">
+        <div class="asset-head">
+          <span class="asset-name">ETH/USD</span>
+          <span class="asset-price">2 529,41 $</span>
+        </div>
+        <span class="chip hold">Signal · Hold</span>
+        <div class="sentiment-row">
+          <div class="sentiment-label"><span>Sentiment news (5 articles)</span><span class="val">+0.35</span></div>
+          <div class="gauge"><div class="gauge-mid"></div><div class="gauge-fill" style="left:50.0%; width:17.5%; background:var(--bullish);"></div></div>
+        </div>
+        <p class="asset-note">Aucune position — <span class="n">Pas de croisement Supertrend haussier confirmé aujourd&#x27;hui — l&#x27;agent surveille.</span></p>
+      </article>
+
+      <article class="asset-card">
+        <div class="asset-head">
+          <span class="asset-name">SOL/USD</span>
+          <span class="asset-price">97,40 $</span>
+        </div>
+        <span class="chip hold">Signal · Hold</span>
+        <div class="sentiment-row">
+          <div class="sentiment-label"><span>Sentiment news (2 articles)</span><span class="val">+0.35</span></div>
+          <div class="gauge"><div class="gauge-mid"></div><div class="gauge-fill" style="left:50.0%; width:17.5%; background:var(--bullish);"></div></div>
+        </div>
+        <p class="asset-note">Aucune position — <span class="n">Pas de croisement Supertrend haussier confirmé aujourd&#x27;hui — l&#x27;agent surveille.</span></p>
+      </article>
+
+      <article class="asset-card">
+        <div class="asset-head">
+          <span class="asset-name">XRP/USD</span>
+          <span class="asset-price">1,5248 $</span>
+        </div>
+        <span class="chip hold">Signal · Hold</span>
+        <div class="sentiment-row">
+          <div class="sentiment-label"><span>Sentiment news (1 article)</span><span class="val">+0.70</span></div>
+          <div class="gauge"><div class="gauge-mid"></div><div class="gauge-fill" style="left:50.0%; width:35.0%; background:var(--bullish);"></div></div>
+        </div>
+        <p class="asset-note">Aucune position — <span class="n">Pas de croisement Supertrend haussier confirmé aujourd&#x27;hui — l&#x27;agent surveille.</span></p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <p class="section-label">Journal des trades simulés</p>
+    <div class="log-card">
+      <div class="empty-log">
+        <strong>Aucun trade pour l'instant</strong>
+        L'agent attend une confirmation Supertrend + tendance hebdomadaire avant d'entrer en position. C'est le comportement attendu, pas une anomalie.
+      </div>
+    </div>
+  </section>
+
+  <section class="strategy-panel">
+    <div>
+      <h2>Stratégie validée</h2>
+      <p>Weekly(EMA10) + Daily Supertrend(10,3), stop suiveur ATR(14)×3, long-only. Reste en cash pendant les marchés baissiers plutôt que de shorter — validé sur 15 épisodes de baisse soutenue (voir RESEARCH_SUMMARY.md).</p>
+      <ul class="rule-list">
+        <li><span class="k">Entrée</span><span class="v">Supertrend haussier + close weekly &gt; EMA10</span></li>
+        <li><span class="k">Sortie</span><span class="v">signal baissier OU stop ATR×3 touché</span></li>
+        <li><span class="k">Sizing</span><span class="v">2 % du capital risqué / trade</span></li>
+        <li><span class="k">Circuit breaker</span><span class="v">pause si drawdown ≥ 25 %</span></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Performance backtestée (hors-échantillon)</h2>
+      <div class="metric-row">
+        <div class="metric"><span class="v" style="color:var(--bullish)">+29,4 %</span><span class="k">rendement moyen</span></div>
+        <div class="metric"><span class="v">56,7 %</span><span class="k">win rate</span></div>
+        <div class="metric"><span class="v">2,21</span><span class="k">profit factor</span></div>
+        <div class="metric"><span class="v" style="color:var(--bearish)">−27,4 %</span><span class="k">max drawdown</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Cycle quotidien automatique · 00:05 UTC · GitHub Actions — aucun ordre réel envoyé à Coinbase<br>
+    Régénéré automatiquement à chaque cycle
+  </footer>
+
+</div>
+</body>
+</html>

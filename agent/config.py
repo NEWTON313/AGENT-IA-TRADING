@@ -64,10 +64,15 @@ COINBASE_API_SECRET = os.environ.get("COINBASE_API_SECRET")
 # --- Chemins de persistance -----------------------------------------------------
 
 AGENT_DIR = Path(__file__).resolve().parent
-DATA_DIR = AGENT_DIR.parent  # les CSV daily/weekly de la phase de recherche vivent au niveau projet
+PROJECT_DIR = AGENT_DIR.parent
+DATA_DIR = PROJECT_DIR  # les CSV daily/weekly de la phase de recherche vivent au niveau projet
 PAPER_TRADES_LOG = AGENT_DIR / "paper_trades.csv"
 PORTFOLIO_STATE_FILE = AGENT_DIR / "portfolio_state.json"
 AGENT_LOG_FILE = AGENT_DIR / "agent_run.log"
+LATEST_CYCLE_FILE = AGENT_DIR / "latest_cycle.json"
+
+# Dashboard statique régénéré à chaque cycle, servi via GitHub Pages (/docs sur main)
+DASHBOARD_OUTPUT_FILE = PROJECT_DIR / "docs" / "index.html"
 
 DAILY_CSV_TEMPLATE = "{symbol}_daily_full.csv"   # ex: btc_usd_daily_full.csv
 WEEKLY_CSV_TEMPLATE = "{symbol}_weekly_full.csv"
