@@ -2,7 +2,7 @@ name: Cycle quotidien de l'agent trading crypto
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # ~08:00 heure de Paris (06:00 UTC) — daily, l'heure exacte importe peu pour une stratégie Daily
+    - cron: "5 0 * * *"   # 00:05 UTC — juste après la clôture journalière des bougies Coinbase (minuit UTC), petite marge de sécurité
   workflow_dispatch:        # permet aussi un déclenchement manuel depuis l'onglet Actions de GitHub
 
 permissions:
