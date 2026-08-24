@@ -1,0 +1,32 @@
+
+
+Je souhaite concevoir un agent IA autonome capable d'exécuter des ordres d'achat et de vente sur Coinbase en fonction de critères décisionnels stricts (actualités, sentiment, notes de marché et indicateurs graphiques).
+
+Avant de coder le moindre agent ou de connecter l'API, nous devons passer par une phase rigoureuse de recherche, de backtesting et d'optimisation.
+
+### Objectifs de la mission :
+1. **Backtesting & Optimisation (Historique 1 an en données Daily) :** Analyser les performances sur les 12 derniers mois pour déterminer quels indicateurs graphiques et fondamentaux offrent le meilleur rendement annuel cumulé combiné au meilleur ratio de trades gagnants (Win Rate).
+2. **Sélection des indicateurs pertinents :** Tester l'efficacité de différents indicateurs techniques (ex: RSI, MACD, Moyennes Mobiles, Bandes de Bollinger, Ichimoku...) et évaluer leur pertinence réelle pour éliminer le bruit.
+3. **Architecture de l'Agent IA :** Développer la structure logicielle de l'agent (en Python) qui combinera l'analyse technique validée, le traitement des actualités/sentiment (via des LLMs ou flux de news) et la gestion des risques.
+4. **Intégration Coinbase Advanced Trade API :** Implémenter de manière sécurisée la logique d'exécution des ordres en mode paper-trading (simulation) puis en live.
+
+---
+
+### Structure de travail attendue :
+
+Merci de me guider étape par étape. Pour commencer, réponds-moi en suivant ce plan :
+
+1. **Proposition de Stack Technique :**
+   * Recommande les meilleures bibliothèques Python pour le backtesting (ex: `backtrader`, `vectorbt`, ou scripts custom avec `pandas`/`numpy`), la récupération des données historiques (Coinbase API ou Yahoo Finance pour le Daily) et le traitement des actualités.
+
+2. **Méthodologie de Backtesting (1 an Daily) :**
+   * Propose un script Python de base pour télécharger l'historique d'un actif (ex: BTC-USD) sur 1 an en timeframe Daily.
+   * Définis la fonction mathématique ou les métriques que nous allons utiliser pour noter l'efficacité de chaque indicateur (Rendement net, Profit Factor, Max Drawdown, Win Rate).
+
+3. **Plan de Test des Indicateurs Graphiques :**
+   * Suggère une liste d'indicateurs à tester en premier et explique comment nous allons automatiser leur scoring de performance.
+
+---
+
+### Première action attendue de ta part :
+Valide ta compréhension de mes objectifs, propose la structure du script de backtesting initial pour le 1 an Daily, et pose-moi les questions nécessaires concernant les actifs cibles (ex: BTC, ETH) et la tolérance au risque avant de rédiger le code.

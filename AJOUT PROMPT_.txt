@@ -1,0 +1,18 @@
+
+### Indicateurs et Confluences à tester lors du Backtesting :
+Pour maximiser la pertinence du backtesting sur 1 an en Daily, l'agent devra tester et scorer des stratégies basées sur la **confluence** des catégories suivantes (en éliminant les faux signaux des indicateurs isolés) :
+
+1. **Tendance et Structure :**
+   * Moyennes Mobiles Exponentielles (EMA 50 et EMA 200) pour valider la direction de la tendance de fond.
+   * Analyse de la structure de marché (détection des Higher Highs / Lower Lows).
+
+2. **Momentum et Retournements :**
+   * RSI (Relative Strength Index) axé principalement sur la détection de **divergences** (plutôt que les seuils simples de survente/surachat).
+   * MACD et lecture de son histogramme pour mesurer l'essoufflement d'une impulsion.
+
+3. **Volatilité et Risque :**
+   * Bandes de Bollinger (notamment la détection des phases de compression / Bollinger Squeeze pour anticiper les breakouts).
+   * ATR (Average True Range) pour le calcul dynamique des Stop-Loss et de la gestion du risque.
+
+4. **Volume et Liquidité :**
+   * On-Balance Volume (OBV) et volumes relatifs pour valider la force derrière une cassure de niveau (filtrer les faux breakouts).

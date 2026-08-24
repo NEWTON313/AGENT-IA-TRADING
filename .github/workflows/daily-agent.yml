@@ -1,0 +1,38 @@
+name: Cycle quotidien de l'agent trading crypto
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # ~08:00 heure de Paris (06:00 UTC) — daily, l'heure exacte importe peu pour une stratégie Daily
+  workflow_dispatch:        # permet aussi un déclenchement manuel depuis l'onglet Actions de GitHub
+
+permissions:
+  contents: write            # nécessaire pour commit/push l'état du portefeuille mis à jour
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Exécuter un cycle de l'agent (paper trading uniquement)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent/main.py --once
+
+      - name: Committer l'état mis à jour du portefeuille
+        run: |
+          git config user.name "sentinel-agent"
+          git config user.email "sentinel-agent@users.noreply.github.com"
+          [ -f agent/portfolio_state.json ] && git add agent/portfolio_state.json
+          [ -f agent/paper_trades.csv ] && git add agent/paper_trades.csv
+          git diff --staged --quiet || git commit -m "Cycle quotidien $(date -u +%Y-%m-%d)"
+          git push

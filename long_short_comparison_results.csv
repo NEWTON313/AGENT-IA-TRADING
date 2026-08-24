@@ -1,0 +1,9 @@
+asset,variante,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,Long_only,70.72,2.73,-24.63,60.0,5
+BTC/USD,Long_Short_symetrique,51.36,1.85,-31.43,50.0,6
+ETH/USD,Long_only,30.13,1.98,-30.87,66.67,3
+ETH/USD,Long_Short_symetrique,-31.64,0.62,-45.83,33.33,9
+SOL/USD,Long_only,27.69,3.13,-27.14,66.67,3
+SOL/USD,Long_Short_symetrique,1.04,1.02,-46.27,44.44,9
+XRP/USD,Long_only,-32.88,0.22,-32.88,33.33,3
+XRP/USD,Long_Short_symetrique,-26.27,0.53,-50.73,42.86,7

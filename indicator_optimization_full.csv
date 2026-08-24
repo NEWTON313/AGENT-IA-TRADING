@@ -1,0 +1,449 @@
+asset,indicator,params,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,SMA_Cross,"{'fast': 10, 'slow': 50}",41.3,1.26,-45.49,39.13,23
+BTC/USD,SMA_Cross,"{'fast': 10, 'slow': 100}",46.63,1.3,-42.18,30.77,13
+BTC/USD,SMA_Cross,"{'fast': 10, 'slow': 150}",146.62,3.21,-31.08,44.44,9
+BTC/USD,SMA_Cross,"{'fast': 20, 'slow': 50}",-6.23,0.94,-57.96,26.09,23
+BTC/USD,SMA_Cross,"{'fast': 20, 'slow': 100}",57.27,1.38,-42.21,36.36,11
+BTC/USD,SMA_Cross,"{'fast': 20, 'slow': 150}",126.75,2.61,-31.39,57.14,7
+BTC/USD,SMA_Cross,"{'fast': 30, 'slow': 50}",-3.21,0.98,-56.46,36.36,22
+BTC/USD,SMA_Cross,"{'fast': 30, 'slow': 100}",56.81,1.48,-36.87,44.44,9
+BTC/USD,SMA_Cross,"{'fast': 30, 'slow': 150}",70.13,2.22,-40.07,80.0,5
+BTC/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 5}",-21.22,0.93,-54.14,33.33,90
+BTC/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 9}",-5.92,0.98,-52.93,36.99,73
+BTC/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 12}",-6.96,0.97,-55.29,40.0,65
+BTC/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 5}",-26.79,0.91,-61.93,32.93,82
+BTC/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 9}",-46.19,0.81,-64.09,36.11,72
+BTC/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 12}",-51.18,0.76,-67.36,36.36,66
+BTC/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 5}",-37.78,0.87,-62.52,29.67,91
+BTC/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 9}",-56.82,0.72,-61.11,33.33,69
+BTC/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 12}",-60.56,0.65,-64.61,36.92,65
+BTC/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 5}",14.67,1.05,-55.18,43.53,85
+BTC/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 9}",-11.74,0.95,-58.78,40.0,70
+BTC/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 12}",-25.93,0.88,-60.79,41.54,65
+BTC/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 5}",-20.11,0.91,-65.47,42.67,75
+BTC/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 9}",-7.74,0.96,-57.3,44.26,61
+BTC/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 12}",-33.14,0.83,-67.32,44.07,59
+BTC/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 5}",-36.72,0.82,-62.08,34.21,76
+BTC/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 9}",-10.87,0.95,-58.6,48.33,60
+BTC/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 12}",-50.32,0.64,-71.16,41.82,55
+BTC/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 5}",-58.33,0.72,-73.46,43.97,116
+BTC/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 9}",-66.93,0.6,-81.05,43.04,79
+BTC/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 12}",-61.18,0.64,-78.06,39.47,76
+BTC/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 5}",-60.72,0.69,-79.55,41.25,80
+BTC/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 9}",-26.94,0.88,-66.41,41.94,62
+BTC/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 12}",-45.82,0.71,-65.99,37.93,58
+BTC/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 5}",-31.25,0.85,-70.18,37.68,69
+BTC/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 9}",-34.53,0.81,-72.77,33.93,56
+BTC/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 12}",-31.97,0.8,-64.9,42.0,50
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 65}",-69.29,0.56,-81.33,35.29,51
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 70}",-52.56,0.68,-71.72,45.83,48
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 75}",-57.81,0.54,-67.3,48.84,43
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 80}",-62.67,0.55,-74.75,53.85,39
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 65}",-62.89,0.63,-78.09,36.21,58
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 70}",-44.39,0.75,-67.8,50.0,54
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 75}",-51.79,0.63,-63.29,54.17,48
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 80}",-55.86,0.64,-76.79,60.47,43
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 65}",-21.12,0.91,-63.76,42.65,68
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 70}",11.49,1.04,-62.12,54.84,62
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 75}",-38.03,0.77,-62.78,53.7,54
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 80}",-47.41,0.72,-79.01,57.14,49
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 65}",-39.49,0.83,-69.17,41.33,75
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 70}",-11.26,0.95,-66.79,52.94,68
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 75}",-45.46,0.72,-66.37,50.85,59
+BTC/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 80}",-55.69,0.65,-81.52,55.77,52
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 65}",-57.21,0.27,-61.37,54.17,24
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 70}",-58.12,0.33,-69.48,54.55,22
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 75}",-47.56,0.43,-68.24,60.0,20
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 80}",-37.13,0.6,-72.2,56.25,16
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 65}",-60.22,0.36,-69.41,55.88,34
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 70}",-48.71,0.58,-65.96,64.52,31
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 75}",-26.25,0.76,-65.96,64.29,28
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 80}",-16.88,0.84,-69.91,63.64,22
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 65}",-17.6,0.89,-53.37,58.54,41
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 70}",-20.33,0.88,-63.86,66.67,36
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 75}",50.84,1.25,-63.96,69.7,33
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 80}",2.47,1.01,-68.55,72.0,25
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 65}",-39.08,0.72,-60.65,55.56,45
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 70}",-34.06,0.76,-63.37,56.76,37
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 75}",17.59,1.11,-63.36,57.58,33
+BTC/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 80}",-21.61,0.83,-68.02,60.0,25
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 65}",145.51,4.15,-25.55,64.29,14
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 70}",102.9,3.68,-23.31,69.23,13
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 75}",188.59,7.21,-35.56,91.67,12
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 80}",137.84,4.58,-39.64,90.0,10
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 65}",13.46,1.13,-61.69,55.0,20
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 70}",-9.06,0.89,-61.3,64.71,17
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 75}",27.89,1.42,-67.16,64.29,14
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 80}",9.95,1.11,-67.16,66.67,12
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 65}",68.01,1.32,-66.51,59.26,27
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 70}",38.0,1.23,-64.37,68.18,22
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 75}",29.68,1.26,-68.8,72.22,18
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 80}",52.32,1.28,-67.71,71.43,14
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 65}",50.89,1.24,-67.27,63.33,30
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 70}",12.64,1.08,-65.18,63.64,22
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 75}",13.15,1.12,-69.51,72.22,18
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 80}",42.41,1.24,-68.45,71.43,14
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 65}",16.23,76.31,-15.22,75.0,4
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 70}",25.36,inf,-12.8,100.0,4
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 75}",119.36,inf,-16.96,100.0,4
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 80}",-15.98,0.58,-66.79,66.67,3
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 65}",45.47,48.33,-18.17,66.67,9
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 70}",93.39,inf,-35.56,100.0,8
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 75}",162.21,5.6,-35.56,85.71,7
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 80}",12.92,1.23,-66.79,50.0,4
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 65}",-37.8,0.49,-64.87,46.15,13
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 70}",-22.87,0.64,-68.42,50.0,10
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 75}",6.4,1.1,-65.03,66.67,9
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 80}",-8.46,0.88,-69.01,60.0,5
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 65}",-6.86,0.94,-67.54,58.82,17
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 70}",-5.64,0.94,-70.96,69.23,13
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 75}",7.71,1.06,-67.84,63.64,11
+BTC/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 80}",-10.2,0.92,-69.65,50.0,6
+BTC/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 1.5}",-65.04,0.5,-71.88,56.94,72
+BTC/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.0}",-42.25,0.61,-51.41,64.15,53
+BTC/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.5}",-18.61,0.65,-29.87,62.5,16
+BTC/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 1.5}",-25.57,0.82,-49.71,68.18,44
+BTC/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.0}",-21.6,0.8,-55.49,58.06,31
+BTC/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.5}",24.54,1.32,-33.62,78.95,19
+BTC/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 1.5}",-36.08,0.69,-56.37,61.29,31
+BTC/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.0}",-31.31,0.69,-51.34,56.52,23
+BTC/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.5}",-19.9,0.66,-38.49,50.0,16
+BTC/USD,Ichimoku,"{'tenkan': 7, 'kijun': 22, 'senkou': 44}",-25.91,0.59,-50.66,29.41,17
+BTC/USD,Ichimoku,"{'tenkan': 9, 'kijun': 26, 'senkou': 52}",-27.52,0.55,-44.43,21.43,14
+BTC/USD,Ichimoku,"{'tenkan': 12, 'kijun': 30, 'senkou': 60}",30.54,1.37,-32.69,35.71,14
+ETH/USD,SMA_Cross,"{'fast': 10, 'slow': 50}",39.25,1.3,-49.76,36.36,22
+ETH/USD,SMA_Cross,"{'fast': 10, 'slow': 100}",4.88,1.05,-63.5,38.46,13
+ETH/USD,SMA_Cross,"{'fast': 10, 'slow': 150}",30.76,1.5,-48.38,37.5,8
+ETH/USD,SMA_Cross,"{'fast': 20, 'slow': 50}",28.35,1.24,-51.97,47.37,19
+ETH/USD,SMA_Cross,"{'fast': 20, 'slow': 100}",24.76,1.29,-51.48,50.0,10
+ETH/USD,SMA_Cross,"{'fast': 20, 'slow': 150}",52.19,2.07,-47.76,50.0,6
+ETH/USD,SMA_Cross,"{'fast': 30, 'slow': 50}",-1.08,0.99,-58.15,47.37,19
+ETH/USD,SMA_Cross,"{'fast': 30, 'slow': 100}",-24.56,0.73,-60.04,40.0,10
+ETH/USD,SMA_Cross,"{'fast': 30, 'slow': 150}",84.59,4.44,-43.84,75.0,4
+ETH/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 5}",-55.17,0.81,-71.76,32.22,90
+ETH/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 9}",-43.27,0.86,-66.21,42.86,77
+ETH/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 12}",-47.42,0.83,-69.76,32.89,76
+ETH/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 5}",-66.12,0.8,-82.84,29.47,95
+ETH/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 9}",-62.4,0.77,-76.31,31.58,76
+ETH/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 12}",-79.4,0.64,-85.54,26.76,71
+ETH/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 5}",-60.49,0.81,-75.07,29.67,91
+ETH/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 9}",-74.56,0.64,-83.77,32.86,70
+ETH/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 12}",-84.55,0.45,-90.22,28.57,63
+ETH/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 5}",-66.06,0.71,-75.38,30.0,90
+ETH/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 9}",-68.94,0.7,-79.58,33.8,71
+ETH/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 12}",-81.62,0.55,-86.63,37.14,70
+ETH/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 5}",-74.44,0.66,-83.99,30.0,80
+ETH/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 9}",-79.25,0.59,-87.46,30.43,69
+ETH/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 12}",-83.85,0.52,-90.32,31.75,63
+ETH/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 5}",-82.64,0.58,-89.53,29.41,85
+ETH/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 9}",-83.02,0.51,-91.29,33.85,65
+ETH/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 12}",-90.51,0.35,-92.78,30.36,56
+ETH/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 5}",-63.58,0.76,-75.76,37.07,116
+ETH/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 9}",-78.25,0.64,-86.82,35.56,90
+ETH/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 12}",-69.09,0.7,-84.02,31.71,82
+ETH/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 5}",-67.84,0.69,-84.24,31.82,88
+ETH/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 9}",-62.1,0.76,-81.71,32.84,67
+ETH/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 12}",-65.67,0.72,-85.0,29.03,62
+ETH/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 5}",-72.21,0.68,-84.77,28.77,73
+ETH/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 9}",-78.93,0.61,-89.02,29.31,58
+ETH/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 12}",-82.85,0.56,-91.54,29.63,54
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 65}",-89.69,0.31,-91.65,38.64,44
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 70}",-88.77,0.31,-90.98,37.84,37
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 75}",-87.22,0.28,-89.64,44.12,34
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 80}",-80.97,0.4,-84.91,56.67,30
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 65}",-85.12,0.38,-90.47,42.86,56
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 70}",-87.71,0.36,-92.17,43.48,46
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 75}",-84.29,0.37,-89.9,47.5,40
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 80}",-76.72,0.49,-85.36,58.33,36
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 65}",-83.5,0.44,-89.33,48.48,66
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 70}",-86.18,0.44,-91.11,50.0,54
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 75}",-86.0,0.4,-90.91,50.0,44
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 80}",-74.54,0.58,-83.84,61.54,39
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 65}",-90.87,0.41,-94.18,35.14,74
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 70}",-92.03,0.42,-94.92,35.48,62
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 75}",-89.99,0.4,-93.56,36.73,49
+ETH/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 80}",-80.87,0.59,-87.95,47.5,40
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 65}",-53.51,0.63,-64.91,45.83,24
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 70}",-67.85,0.46,-75.73,45.45,22
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 75}",-67.44,0.44,-74.96,52.38,21
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 80}",-50.01,0.65,-67.52,47.37,19
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 65}",-85.23,0.28,-88.32,45.16,31
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 70}",-90.01,0.2,-92.41,42.31,26
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 75}",-87.81,0.21,-90.65,45.83,24
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 80}",-79.42,0.35,-82.61,38.1,21
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 65}",-83.77,0.49,-87.51,42.5,40
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 70}",-89.52,0.36,-92.12,54.55,33
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 75}",-86.4,0.44,-89.67,51.72,29
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 80}",-82.8,0.47,-85.59,36.36,22
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 65}",-70.36,0.54,-81.33,52.17,46
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 70}",-79.54,0.41,-86.6,62.16,37
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 75}",-67.99,0.56,-80.79,63.64,33
+ETH/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 80}",-60.81,0.61,-75.6,48.0,25
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 65}",20.18,1.27,-28.84,54.55,11
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 70}",23.9,1.39,-32.92,54.55,11
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 75}",27.17,1.48,-37.21,62.5,8
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 80}",103.7,2.75,-44.58,71.43,7
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 65}",23.1,1.21,-57.5,58.82,17
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 70}",-35.19,0.74,-64.89,50.0,14
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 75}",-23.24,0.82,-63.66,45.45,11
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 80}",-26.87,0.61,-55.38,44.44,9
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 65}",60.85,1.29,-71.11,64.52,31
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 70}",13.35,1.05,-71.11,62.5,24
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 75}",42.41,1.13,-68.93,55.56,18
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 80}",13.34,1.07,-74.36,53.85,13
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 65}",-41.53,0.76,-77.51,50.0,32
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 70}",-37.82,0.82,-77.51,60.0,25
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 75}",-33.62,0.87,-75.82,52.63,19
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 80}",-42.7,0.74,-76.44,46.15,13
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 65}",53.03,inf,-18.63,100.0,4
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 70}",60.17,inf,-18.63,100.0,4
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 75}",52.5,5.34,-44.58,66.67,3
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 80}",65.5,inf,-44.58,100.0,3
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 65}",39.8,4.81,-29.22,66.67,6
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 70}",62.53,9.36,-28.92,66.67,6
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 75}",55.22,2.71,-63.26,60.0,5
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 80}",74.43,6.1,-63.26,60.0,5
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 65}",-76.05,0.17,-81.86,30.0,10
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 70}",-65.56,0.28,-75.09,30.0,10
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 75}",-66.27,0.36,-74.4,50.0,6
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 80}",-66.94,0.21,-80.42,40.0,5
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 65}",-55.16,0.65,-74.32,52.94,17
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 70}",-43.57,0.73,-73.7,46.67,15
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 75}",-9.03,0.95,-70.76,60.0,10
+ETH/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 80}",-4.17,0.97,-69.97,50.0,8
+ETH/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 1.5}",-68.74,0.61,-75.64,56.76,74
+ETH/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.0}",-75.02,0.36,-78.51,45.83,48
+ETH/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.5}",-41.06,0.17,-51.91,53.85,13
+ETH/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 1.5}",-51.57,0.75,-70.3,66.67,48
+ETH/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.0}",-53.27,0.69,-69.4,62.5,32
+ETH/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.5}",-60.69,0.46,-70.52,47.37,19
+ETH/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 1.5}",-76.96,0.58,-85.04,60.71,28
+ETH/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.0}",-75.35,0.38,-78.31,52.63,19
+ETH/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.5}",-77.54,0.2,-80.14,35.71,14
+ETH/USD,Ichimoku,"{'tenkan': 7, 'kijun': 22, 'senkou': 44}",-25.08,0.65,-48.01,31.25,16
+ETH/USD,Ichimoku,"{'tenkan': 9, 'kijun': 26, 'senkou': 52}",-2.32,0.97,-53.23,38.46,13
+ETH/USD,Ichimoku,"{'tenkan': 12, 'kijun': 30, 'senkou': 60}",71.68,1.71,-32.64,46.15,13
+SOL/USD,SMA_Cross,"{'fast': 10, 'slow': 50}",45.59,1.16,-76.11,36.36,22
+SOL/USD,SMA_Cross,"{'fast': 10, 'slow': 100}",30.05,1.13,-66.51,22.22,18
+SOL/USD,SMA_Cross,"{'fast': 10, 'slow': 150}",184.6,2.07,-54.75,30.0,10
+SOL/USD,SMA_Cross,"{'fast': 20, 'slow': 50}",-37.9,0.85,-80.52,26.32,19
+SOL/USD,SMA_Cross,"{'fast': 20, 'slow': 100}",-34.77,0.82,-75.1,21.43,14
+SOL/USD,SMA_Cross,"{'fast': 20, 'slow': 150}",122.39,1.79,-55.55,14.29,7
+SOL/USD,SMA_Cross,"{'fast': 30, 'slow': 50}",-71.99,0.65,-84.59,21.05,19
+SOL/USD,SMA_Cross,"{'fast': 30, 'slow': 100}",-61.12,0.66,-79.73,21.43,14
+SOL/USD,SMA_Cross,"{'fast': 30, 'slow': 150}",160.02,1.85,-54.84,14.29,7
+SOL/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 5}",-59.46,0.81,-85.72,38.95,95
+SOL/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 9}",-59.37,0.78,-85.08,39.47,76
+SOL/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 12}",-62.09,0.72,-89.19,41.18,68
+SOL/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 5}",-37.53,0.87,-87.12,36.14,83
+SOL/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 9}",-66.44,0.68,-92.98,42.25,71
+SOL/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 12}",-79.57,0.53,-95.12,36.07,61
+SOL/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 5}",-71.27,0.68,-91.22,32.14,84
+SOL/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 9}",-61.06,0.73,-90.65,36.76,68
+SOL/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 12}",-61.22,0.73,-94.79,33.9,59
+SOL/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 5}",-62.48,0.81,-84.05,43.02,86
+SOL/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 9}",-81.1,0.65,-92.04,39.19,74
+SOL/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 12}",-88.93,0.5,-94.51,38.57,70
+SOL/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 5}",-73.4,0.7,-88.48,36.49,74
+SOL/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 9}",-74.25,0.58,-94.6,37.1,62
+SOL/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 12}",-85.54,0.5,-94.85,40.98,61
+SOL/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 5}",-78.95,0.6,-93.66,33.8,71
+SOL/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 9}",-66.55,0.64,-94.24,43.1,58
+SOL/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 12}",-81.78,0.56,-93.86,41.51,53
+SOL/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 5}",-43.61,0.92,-82.87,46.96,115
+SOL/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 9}",-89.5,0.63,-92.76,38.89,90
+SOL/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 12}",-80.75,0.61,-90.21,41.77,79
+SOL/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 5}",-84.33,0.6,-91.82,38.37,86
+SOL/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 9}",-65.7,0.67,-92.0,39.71,68
+SOL/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 12}",-87.23,0.39,-96.29,38.33,60
+SOL/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 5}",-65.21,0.73,-89.54,47.06,68
+SOL/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 9}",-70.48,0.64,-93.24,42.86,56
+SOL/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 12}",-77.16,0.67,-93.13,38.18,55
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 65}",-53.82,0.77,-85.06,46.81,47
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 70}",-61.54,0.75,-85.41,51.16,43
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 75}",-70.78,0.64,-84.73,55.0,40
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 80}",-77.65,0.6,-84.77,57.14,35
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 65}",-69.33,0.7,-90.67,42.31,52
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 70}",-77.84,0.65,-90.4,51.06,47
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 75}",-87.01,0.46,-92.25,53.49,43
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 80}",-89.22,0.44,-91.97,56.76,37
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 65}",-52.43,0.78,-87.91,45.76,59
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 70}",-78.16,0.66,-87.25,50.0,52
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 75}",-86.83,0.48,-91.78,53.19,47
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 80}",-89.23,0.45,-93.2,57.5,40
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 65}",-17.67,0.95,-83.61,52.24,67
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 70}",-54.44,0.82,-85.91,55.17,58
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 75}",-75.17,0.62,-90.35,56.86,51
+SOL/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 80}",-77.33,0.6,-90.92,59.09,44
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 65}",-79.59,0.35,-86.44,50.0,24
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 70}",-66.68,0.43,-83.32,56.52,23
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 75}",-36.85,0.76,-83.26,60.87,23
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 80}",-63.43,0.44,-93.37,57.89,19
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 65}",-71.63,0.69,-86.21,43.75,32
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 70}",-42.48,0.85,-82.31,45.16,31
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 75}",-10.52,0.97,-83.07,53.33,30
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 80}",-76.86,0.48,-94.74,54.55,22
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 65}",-61.99,0.75,-88.34,45.0,40
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 70}",-14.72,0.96,-84.17,44.74,38
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 75}",26.49,1.06,-85.38,51.43,35
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 80}",-79.63,0.38,-95.27,54.17,24
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 65}",-49.35,0.84,-87.42,50.0,44
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 70}",11.86,1.03,-82.93,51.22,41
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 75}",72.87,1.12,-84.39,55.26,38
+SOL/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 80}",-65.5,0.6,-95.03,61.54,26
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 65}",74.74,2.08,-60.32,54.55,11
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 70}",83.39,2.4,-56.71,70.0,10
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 75}",126.44,2.7,-67.13,66.67,9
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 80}",-30.35,0.59,-86.39,57.14,7
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 65}",-34.62,0.77,-81.8,68.18,22
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 70}",8.68,1.05,-78.32,68.42,19
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 75}",-8.56,0.92,-88.92,73.33,15
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 80}",-67.85,0.35,-93.5,63.64,11
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 65}",-83.51,0.39,-86.91,57.69,26
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 70}",-72.47,0.5,-83.33,57.14,21
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 75}",-78.49,0.33,-92.17,62.5,16
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 80}",-89.37,0.16,-96.03,63.64,11
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 65}",-63.87,0.68,-86.95,53.33,30
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 70}",-38.69,0.84,-83.38,52.0,25
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 75}",-42.4,0.8,-90.38,60.0,20
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 80}",-84.03,0.42,-96.03,57.14,14
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 65}",38.2,inf,-33.05,100.0,4
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 70}",-17.91,0.68,-75.58,75.0,4
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 75}",15.3,1.46,-75.58,75.0,4
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 80}",-7.19,0.81,-74.27,66.67,3
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 65}",115.92,4.33,-55.53,62.5,8
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 70}",-44.34,0.48,-85.0,66.67,6
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 75}",-49.29,0.44,-85.0,60.0,5
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 80}",-47.77,0.54,-83.61,50.0,4
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 65}",-46.6,0.57,-78.58,53.85,13
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 70}",-85.12,0.13,-92.51,50.0,10
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 75}",-84.86,0.14,-92.51,50.0,8
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 80}",-63.23,0.42,-91.58,50.0,6
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 65}",-38.2,0.74,-88.72,73.68,19
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 70}",-80.13,0.5,-95.32,61.54,13
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 75}",-84.25,0.49,-95.32,50.0,10
+SOL/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 80}",-74.3,0.32,-95.25,50.0,6
+SOL/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 1.5}",-76.26,0.7,-88.13,65.82,79
+SOL/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.0}",-76.45,0.41,-81.83,52.27,44
+SOL/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.5}",-46.84,0.2,-59.89,41.67,12
+SOL/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 1.5}",-78.01,0.58,-89.55,55.26,38
+SOL/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.0}",-76.77,0.45,-87.35,48.28,29
+SOL/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.5}",-57.11,0.29,-75.64,42.86,14
+SOL/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 1.5}",-71.5,0.51,-85.78,58.06,31
+SOL/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.0}",-77.53,0.34,-85.52,54.55,22
+SOL/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.5}",-63.13,0.36,-80.84,38.46,13
+SOL/USD,Ichimoku,"{'tenkan': 7, 'kijun': 22, 'senkou': 44}",3.1,1.02,-65.77,26.67,15
+SOL/USD,Ichimoku,"{'tenkan': 9, 'kijun': 26, 'senkou': 52}",-40.01,0.58,-51.39,18.18,11
+SOL/USD,Ichimoku,"{'tenkan': 12, 'kijun': 30, 'senkou': 60}",27.01,1.4,-38.86,50.0,8
+XRP/USD,SMA_Cross,"{'fast': 10, 'slow': 50}",66.2,1.34,-55.34,25.0,16
+XRP/USD,SMA_Cross,"{'fast': 10, 'slow': 100}",86.09,1.91,-46.68,22.22,9
+XRP/USD,SMA_Cross,"{'fast': 10, 'slow': 150}",94.25,2.83,-45.98,16.67,6
+XRP/USD,SMA_Cross,"{'fast': 20, 'slow': 50}",132.2,1.89,-45.29,41.67,12
+XRP/USD,SMA_Cross,"{'fast': 20, 'slow': 100}",77.77,2.1,-48.55,28.57,7
+XRP/USD,SMA_Cross,"{'fast': 20, 'slow': 150}",68.32,2.19,-51.76,25.0,4
+XRP/USD,SMA_Cross,"{'fast': 30, 'slow': 50}",4.66,1.02,-63.11,46.67,15
+XRP/USD,SMA_Cross,"{'fast': 30, 'slow': 100}",-10.61,0.86,-53.84,28.57,7
+XRP/USD,SMA_Cross,"{'fast': 30, 'slow': 150}",31.01,1.48,-55.33,25.0,4
+XRP/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 5}",27.94,1.08,-65.38,30.51,59
+XRP/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 9}",8.15,1.03,-71.43,26.92,52
+XRP/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 12}",28.84,1.09,-63.89,33.33,45
+XRP/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 5}",51.38,1.18,-64.91,30.36,56
+XRP/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 9}",33.03,1.11,-70.58,26.67,45
+XRP/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 12}",-2.43,0.99,-73.17,25.0,40
+XRP/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 5}",55.9,1.19,-65.91,28.85,52
+XRP/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 9}",29.43,1.1,-69.14,21.74,46
+XRP/USD,MACD,"{'fast': 8, 'slow': 30, 'signal': 12}",-5.08,0.99,-76.41,23.81,42
+XRP/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 5}",56.98,1.1,-72.45,33.33,54
+XRP/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 9}",64.43,1.13,-71.76,32.61,46
+XRP/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 12}",83.98,1.17,-68.85,29.55,44
+XRP/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 5}",13.81,1.04,-72.98,28.0,50
+XRP/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 9}",23.94,1.06,-73.53,33.33,39
+XRP/USD,MACD,"{'fast': 12, 'slow': 26, 'signal': 12}",82.29,1.2,-67.32,25.0,36
+XRP/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 5}",0.94,1.0,-75.82,28.26,46
+XRP/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 9}",39.96,1.09,-74.17,25.64,39
+XRP/USD,MACD,"{'fast': 12, 'slow': 30, 'signal': 12}",61.68,1.14,-68.35,32.35,34
+XRP/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 5}",106.58,1.14,-72.32,39.44,71
+XRP/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 9}",236.85,1.35,-58.46,38.18,55
+XRP/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 12}",317.72,1.42,-61.48,38.3,47
+XRP/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 5}",176.07,1.34,-61.83,37.04,54
+XRP/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 9}",160.47,1.43,-52.78,36.36,44
+XRP/USD,MACD,"{'fast': 16, 'slow': 26, 'signal': 12}",88.23,1.24,-65.77,39.02,41
+XRP/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 5}",57.32,1.15,-62.8,30.23,43
+XRP/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 9}",58.93,1.16,-62.01,26.32,38
+XRP/USD,MACD,"{'fast': 16, 'slow': 30, 'signal': 12}",81.24,1.26,-59.66,35.14,37
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 65}",67.11,1.16,-75.55,35.29,34
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 70}",115.88,1.32,-68.64,41.94,31
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 75}",45.18,1.16,-72.79,46.15,26
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 20, 'upper': 80}",78.94,1.27,-63.69,43.48,23
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 65}",74.03,1.15,-76.68,37.5,40
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 70}",120.78,1.31,-70.08,41.67,36
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 75}",33.81,1.12,-75.39,42.86,28
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 25, 'upper': 80}",70.86,1.22,-67.19,32.0,25
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 65}",37.49,1.09,-79.42,37.21,43
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 70}",92.29,1.23,-73.08,39.47,38
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 75}",24.06,1.09,-77.85,34.48,29
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 30, 'upper': 80}",95.31,1.3,-64.17,30.77,26
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 65}",21.31,1.06,-78.88,35.56,45
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 70}",88.27,1.24,-71.39,35.9,39
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 75}",27.76,1.1,-75.09,37.93,29
+XRP/USD,RSI_Reversal,"{'window': 7, 'lower': 35, 'upper': 80}",105.55,1.38,-58.62,34.62,26
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 65}",-54.14,0.39,-58.33,40.0,20
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 70}",151.9,1.57,-59.49,42.11,19
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 75}",12.99,1.08,-53.53,46.67,15
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 20, 'upper': 80}",-21.62,0.88,-69.88,36.36,11
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 65}",-19.89,0.82,-57.4,44.83,29
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 70}",294.71,1.97,-57.88,53.85,26
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 75}",224.6,1.85,-53.56,50.0,20
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 25, 'upper': 80}",114.58,1.44,-64.43,50.0,14
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 65}",-56.15,0.5,-70.19,41.18,34
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 70}",114.29,1.43,-63.9,48.15,27
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 75}",90.72,1.39,-54.54,57.14,21
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 30, 'upper': 80}",26.84,1.12,-65.25,50.0,14
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 65}",-60.21,0.45,-74.71,44.12,34
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 70}",121.99,1.42,-68.49,48.15,27
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 75}",88.17,1.37,-56.63,52.38,21
+XRP/USD,RSI_Reversal,"{'window': 10, 'lower': 35, 'upper': 80}",20.77,1.09,-67.92,42.86,14
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 65}",247.63,2.91,-45.51,77.78,9
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 70}",242.54,2.7,-56.96,62.5,8
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 75}",160.56,2.16,-62.05,50.0,6
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 80}",259.02,2.87,-54.79,50.0,4
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 65}",466.49,2.04,-58.99,78.95,19
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 70}",411.75,2.49,-58.46,71.43,14
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 75}",248.51,1.69,-67.23,50.0,10
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 80}",148.42,1.74,-65.11,40.0,5
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 65}",425.5,1.79,-67.1,63.16,19
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 70}",383.68,1.92,-64.54,64.29,14
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 75}",239.62,1.54,-68.54,50.0,10
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 80}",183.57,1.8,-66.5,40.0,5
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 65}",325.18,1.69,-66.66,55.0,20
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 70}",190.5,1.56,-69.4,57.14,14
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 75}",201.56,1.55,-66.95,50.0,10
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 35, 'upper': 80}",209.7,1.94,-64.82,60.0,5
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 65}",1.09,1.06,-31.28,33.33,3
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 70}",-2.57,0.0,-41.2,0.0,2
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 75}",3.21,3.62,-37.71,50.0,2
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 20, 'upper': 80}",2.59,2.4,-37.71,50.0,2
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 65}",-5.5,0.82,-39.0,40.0,5
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 70}",-4.51,0.73,-50.23,25.0,4
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 75}",465.33,70.42,-41.97,75.0,4
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 25, 'upper': 80}",470.5,46.91,-41.97,75.0,4
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 65}",311.66,2.84,-45.41,62.5,8
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 70}",319.41,2.77,-53.17,57.14,7
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 75}",364.31,4.0,-57.72,75.0,4
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 30, 'upper': 80}",368.55,3.92,-57.72,75.0,4
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 65}",302.77,2.58,-45.21,50.0,10
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 70}",341.02,2.98,-48.52,44.44,9
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 75}",144.83,1.8,-65.24,75.0,4
+XRP/USD,RSI_Reversal,"{'window': 21, 'lower': 35, 'upper': 80}",147.06,1.79,-65.24,75.0,4
+XRP/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 1.5}",-28.66,0.77,-45.21,48.98,49
+XRP/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.0}",-14.67,0.84,-43.07,58.06,31
+XRP/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.5}",33.01,2.19,-20.49,72.73,11
+XRP/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 1.5}",82.7,1.72,-39.87,75.76,33
+XRP/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.0}",126.9,2.32,-33.35,76.0,25
+XRP/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.5}",54.51,5.33,-27.88,66.67,12
+XRP/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 1.5}",11.64,1.11,-47.53,66.67,21
+XRP/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.0}",4.73,1.08,-43.41,53.85,13
+XRP/USD,Bollinger_Reversion,"{'window': 30, 'alpha': 2.5}",4.58,1.21,-27.72,50.0,8
+XRP/USD,Ichimoku,"{'tenkan': 7, 'kijun': 22, 'senkou': 44}",-13.7,0.62,-38.56,20.0,10
+XRP/USD,Ichimoku,"{'tenkan': 9, 'kijun': 26, 'senkou': 52}",-18.78,0.29,-33.89,28.57,7
+XRP/USD,Ichimoku,"{'tenkan': 12, 'kijun': 30, 'senkou': 60}",-42.54,0.0,-42.54,0.0,7

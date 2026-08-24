@@ -1,0 +1,9 @@
+asset,variant,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,Supertrend_daily_seul,79.41,1.59,-32.64,40.0,15
+BTC/USD,Supertrend_daily+Weekly_trend_filter,49.21,1.89,-27.24,42.86,7
+ETH/USD,Supertrend_daily_seul,33.52,1.2,-53.76,37.5,16
+ETH/USD,Supertrend_daily+Weekly_trend_filter,3.06,1.07,-31.78,40.0,5
+SOL/USD,Supertrend_daily_seul,258.59,1.54,-57.78,26.67,15
+SOL/USD,Supertrend_daily+Weekly_trend_filter,14.72,1.67,-36.46,50.0,4
+XRP/USD,Supertrend_daily_seul,-56.67,0.12,-56.67,16.67,6
+XRP/USD,Supertrend_daily+Weekly_trend_filter,-39.0,0.18,-39.52,25.0,4

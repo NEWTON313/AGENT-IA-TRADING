@@ -1,0 +1,17 @@
+asset,filtre,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,Sans_filtre,79.41,1.59,-32.64,40.0,15
+BTC/USD,Weekly_EMA20 (etape 9),49.21,1.89,-27.24,42.86,7
+BTC/USD,Weekly_EMA10,70.72,2.73,-24.63,60.0,5
+BTC/USD,Weekly_EMA20+retournement_recent(2sem),49.21,1.89,-27.24,42.86,7
+ETH/USD,Sans_filtre,33.52,1.2,-53.76,37.5,16
+ETH/USD,Weekly_EMA20 (etape 9),3.06,1.07,-31.78,40.0,5
+ETH/USD,Weekly_EMA10,30.13,1.98,-30.87,66.67,3
+ETH/USD,Weekly_EMA20+retournement_recent(2sem),3.06,1.07,-31.78,40.0,5
+SOL/USD,Sans_filtre,258.59,1.54,-57.78,26.67,15
+SOL/USD,Weekly_EMA20 (etape 9),14.72,1.67,-36.46,50.0,4
+SOL/USD,Weekly_EMA10,27.69,3.13,-27.14,66.67,3
+SOL/USD,Weekly_EMA20+retournement_recent(2sem),0.04,1.0,-41.8,40.0,5
+XRP/USD,Sans_filtre,-56.67,0.12,-56.67,16.67,6
+XRP/USD,Weekly_EMA20 (etape 9),-39.0,0.18,-39.52,25.0,4
+XRP/USD,Weekly_EMA10,-32.88,0.22,-32.88,33.33,3
+XRP/USD,Weekly_EMA20+retournement_recent(2sem),-43.68,0.15,-43.68,25.0,4

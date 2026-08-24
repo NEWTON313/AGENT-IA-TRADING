@@ -1,0 +1,6 @@
+ccxt
+pandas
+numpy
+vectorbt
+anthropic==0.125.0
+feedparser

@@ -1,0 +1,3 @@
+symbol,date,close,trend_sma20_50,rsi_14,rsi_zone,macd_state,bb_position_pct
+BTC/USD,2026-08-23,76107.83,haussière,78.38,surachat,bullish,97.3
+ETH/USD,2026-08-23,2392.36,haussière,78.98,surachat,bullish,93.5

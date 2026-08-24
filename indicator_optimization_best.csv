@@ -1,0 +1,21 @@
+asset,indicator,params,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 75}",188.59,7.21,-35.56,91.67,12
+BTC/USD,SMA_Cross,"{'fast': 20, 'slow': 100}",57.27,1.38,-42.21,36.36,11
+BTC/USD,Ichimoku,"{'tenkan': 12, 'kijun': 30, 'senkou': 60}",30.54,1.37,-32.69,35.71,14
+BTC/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.5}",24.54,1.32,-33.62,78.95,19
+BTC/USD,MACD,"{'fast': 12, 'slow': 21, 'signal': 5}",14.67,1.05,-55.18,43.53,85
+ETH/USD,Ichimoku,"{'tenkan': 12, 'kijun': 30, 'senkou': 60}",71.68,1.71,-32.64,46.15,13
+ETH/USD,RSI_Reversal,"{'window': 14, 'lower': 30, 'upper': 65}",60.85,1.29,-71.11,64.52,31
+ETH/USD,SMA_Cross,"{'fast': 10, 'slow': 50}",39.25,1.3,-49.76,36.36,22
+ETH/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.5}",-41.06,0.17,-51.91,53.85,13
+ETH/USD,MACD,"{'fast': 8, 'slow': 21, 'signal': 9}",-43.27,0.86,-66.21,42.86,77
+SOL/USD,SMA_Cross,"{'fast': 10, 'slow': 150}",184.6,2.07,-54.75,30.0,10
+SOL/USD,RSI_Reversal,"{'window': 14, 'lower': 20, 'upper': 70}",83.39,2.4,-56.71,70.0,10
+SOL/USD,Ichimoku,"{'tenkan': 7, 'kijun': 22, 'senkou': 44}",3.1,1.02,-65.77,26.67,15
+SOL/USD,MACD,"{'fast': 8, 'slow': 26, 'signal': 5}",-37.53,0.87,-87.12,36.14,83
+SOL/USD,Bollinger_Reversion,"{'window': 10, 'alpha': 2.5}",-46.84,0.2,-59.89,41.67,12
+XRP/USD,RSI_Reversal,"{'window': 14, 'lower': 25, 'upper': 65}",466.49,2.04,-58.99,78.95,19
+XRP/USD,MACD,"{'fast': 16, 'slow': 21, 'signal': 12}",317.72,1.42,-61.48,38.3,47
+XRP/USD,SMA_Cross,"{'fast': 20, 'slow': 50}",132.2,1.89,-45.29,41.67,12
+XRP/USD,Bollinger_Reversion,"{'window': 20, 'alpha': 2.0}",126.9,2.32,-33.35,76.0,25
+XRP/USD,Ichimoku,"{'tenkan': 7, 'kijun': 22, 'senkou': 44}",-13.7,0.62,-38.56,20.0,10

@@ -1,0 +1,5 @@
+asset,strategie,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,"BB_Squeeze+RSI_Recovery+EMA50_trend, sortie=Chandelier_ATR3",50.06,8.93,-17.96,66.67,3
+ETH/USD,"BB_Squeeze+RSI_Recovery+EMA50_trend, sortie=Chandelier_ATR3",-24.72,0.0,-24.72,0.0,2
+SOL/USD,"BB_Squeeze+RSI_Recovery+EMA50_trend, sortie=Chandelier_ATR3",-41.0,0.0,-41.25,0.0,3
+XRP/USD,"BB_Squeeze+RSI_Recovery+EMA50_trend, sortie=Chandelier_ATR3",-32.11,0.0,-32.11,0.0,1

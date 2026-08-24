@@ -1,0 +1,5 @@
+asset,strategie,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,"Confluence_score>=3/4(Trend+Structure,Momentum,Volatilite,Volume)+ATR-stop",-27.97,0.38,-29.05,13.33,15
+ETH/USD,"Confluence_score>=3/4(Trend+Structure,Momentum,Volatilite,Volume)+ATR-stop",-11.58,0.51,-19.48,27.27,11
+SOL/USD,"Confluence_score>=3/4(Trend+Structure,Momentum,Volatilite,Volume)+ATR-stop",38.59,1.25,-47.81,36.84,19
+XRP/USD,"Confluence_score>=3/4(Trend+Structure,Momentum,Volatilite,Volume)+ATR-stop",-28.49,0.0,-28.49,0.0,5

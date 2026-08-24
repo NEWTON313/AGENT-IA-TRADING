@@ -1,0 +1,13 @@
+asset,variant,periode_oos,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,RSI_reoptimise_a_chaque_fenetre,2023-02-16 -> 2026-07-29,-46.18,0.47,-61.13,70.59,17
+BTC/USD,RSI_standard_fixe_14_30_70,2023-02-16 -> 2026-07-29,44.72,1.66,-37.7,66.67,15
+BTC/USD,Trend(SMA150)+RSI_fixe,2023-02-16 -> 2026-07-29,16.27,1.37,-23.89,50.0,10
+ETH/USD,RSI_reoptimise_a_chaque_fenetre,2023-02-16 -> 2026-07-29,-69.38,0.57,-84.54,46.67,15
+ETH/USD,RSI_standard_fixe_14_30_70,2023-02-16 -> 2026-07-29,14.16,1.07,-60.13,58.82,17
+ETH/USD,Trend(SMA150)+RSI_fixe,2023-02-16 -> 2026-07-29,48.0,1.82,-23.58,50.0,10
+SOL/USD,RSI_reoptimise_a_chaque_fenetre,2023-02-16 -> 2026-07-29,-12.65,0.95,-68.55,54.55,22
+SOL/USD,RSI_standard_fixe_14_30_70,2023-02-16 -> 2026-07-29,-48.14,0.66,-70.4,50.0,14
+SOL/USD,Trend(SMA150)+RSI_fixe,2023-02-16 -> 2026-07-29,-19.55,0.62,-32.94,20.0,10
+XRP/USD,RSI_reoptimise_a_chaque_fenetre,2025-01-03 -> 2026-06-26,-58.01,0.1,-58.34,37.5,8
+XRP/USD,RSI_standard_fixe_14_30_70,2025-01-03 -> 2026-06-26,-58.05,0.06,-61.24,14.29,7
+XRP/USD,Trend(SMA150)+RSI_fixe,2025-01-03 -> 2026-06-26,-24.97,0.0,-35.55,0.0,2

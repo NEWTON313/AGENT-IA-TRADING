@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.claude/
+
+# Données de marché mises en cache — re-téléchargées à chaque run, pas besoin de les versionner
+*_daily_full.csv
+*_weekly_full.csv
+*_4h_oos.csv
+
+# Logs — peuvent grossir vite avec des runs quotidiens, pas essentiels à versionner
+agent/agent_run.log
+
+# L'état du portefeuille et le journal des trades simulés restent versionnés
+# volontairement (agent/portfolio_state.json, agent/paper_trades.csv) : c'est
+# la mémoire persistante de l'agent entre deux runs GitHub Actions.

@@ -1,0 +1,17 @@
+asset,variante,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+BTC/USD,Signal_seul (etape 10),70.72,2.73,-24.63,60.0,5
+BTC/USD,Signal+Trailing_ATR_x2.0,33.92,2.3,-21.4,60.0,5
+BTC/USD,Signal+Trailing_ATR_x3.0,79.95,2.85,-22.66,60.0,5
+BTC/USD,Signal+Trailing_ATR_x4.0,70.72,2.73,-24.63,60.0,5
+ETH/USD,Signal_seul (etape 10),30.13,1.98,-30.87,66.67,3
+ETH/USD,Signal+Trailing_ATR_x2.0,9.22,1.36,-27.65,66.67,3
+ETH/USD,Signal+Trailing_ATR_x3.0,27.68,1.92,-31.03,66.67,3
+ETH/USD,Signal+Trailing_ATR_x4.0,30.13,1.98,-30.87,66.67,3
+SOL/USD,Signal_seul (etape 10),27.69,3.13,-27.14,66.67,3
+SOL/USD,Signal+Trailing_ATR_x2.0,-28.37,0.0,-28.37,0.0,3
+SOL/USD,Signal+Trailing_ATR_x3.0,34.08,3.62,-23.5,66.67,3
+SOL/USD,Signal+Trailing_ATR_x4.0,27.69,3.13,-27.14,66.67,3
+XRP/USD,Signal_seul (etape 10),-32.88,0.22,-32.88,33.33,3
+XRP/USD,Signal+Trailing_ATR_x2.0,-5.12,0.83,-20.29,33.33,3
+XRP/USD,Signal+Trailing_ATR_x3.0,-24.28,0.44,-32.51,33.33,3
+XRP/USD,Signal+Trailing_ATR_x4.0,-28.26,0.34,-32.51,33.33,3
