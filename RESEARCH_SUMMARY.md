@@ -77,3 +77,28 @@ timing**, à combiner avec l'analyse fondamentale/sentiment (étape 3 du prompt)
 Passer à l'étape 3 du prompt : architecture logicielle de l'agent, combinant cette brique TA
 validée avec le traitement des actualités/sentiment et la gestion du risque, avant intégration
 à l'API Coinbase Advanced Trade (d'abord en paper-trading).
+
+## 7. Tentative d'extension à d'autres actifs (Étapes 18-19)
+
+Après la mise en production de l'agent (architecture + GitHub Actions + dashboard), tentative
+d'élargir l'univers suivi à 9 nouveaux actifs : ADA, DOGE, AAVE, DOT, LINK, TRUMP, FET, POL,
+FLOW (NOT/Notcoin indisponible sur Coinbase, exclu).
+
+- `18_fetch_new_assets.py` : récupération daily/weekly (historique complet à ~5 ans pour la
+  plupart, ~581j pour TRUMP, ~720j pour POL).
+- `19_backtest_new_assets.py` : backtest de la stratégie validée (Weekly EMA10 + Daily
+  Supertrend(10,3) + Trailing Stop ATR×3, paramètres fixes — pas de walk-forward nécessaire
+  en l'absence de tout grid-search) sur l'historique complet de chaque actif.
+
+**Résultat : aucun edge exploitable.** 0 à 3 trades par actif sur 4-5 ans (contre ~13 en
+moyenne pour BTC/ETH/SOL/XRP sur une période comparable) — échantillons bien trop faibles pour
+conclure. FET affiche +189% mais sur seulement 2 trades (bruit, pas un signal). TRUMP et POL
+n'ont généré **aucun trade** sur toute leur période disponible (jamais de conjonction
+Supertrend haussier + tendance weekly haussière). La majorité des autres est négative.
+
+**Décision : aucun de ces 9 actifs n'a été ajouté à l'agent live.** L'univers suivi reste
+BTC/USD, ETH/USD, SOL/USD, XRP/USD — les seuls validés avec une rigueur suffisante. Ce
+résultat renforce l'enseignement transversal de la section 5 : la stratégie validée ne
+généralise pas automatiquement à n'importe quel actif, et l'ajout de nouveaux actifs à
+l'agent doit systématiquement repasser par une validation avant activation, pas seulement
+une vérification de disponibilité technique.

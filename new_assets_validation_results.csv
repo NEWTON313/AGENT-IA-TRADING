@@ -1,0 +1,10 @@
+asset,historique_jours,rendement_net_pct,profit_factor,max_drawdown_pct,win_rate_pct,nb_trades
+ADA/USD,1825,-15.09,0.52,-38.36,50.0,2
+DOGE/USD,1825,-17.69,0.0,-17.69,0.0,2
+AAVE/USD,1825,-12.01,0.0,-20.79,0.0,1
+DOT/USD,1825,6.57,1.36,-28.97,50.0,2
+LINK/USD,1825,-1.94,0.76,-23.52,33.33,3
+TRUMP/USD,581,0.0,,0.0,,0
+FET/USD,1825,189.28,3.76,-36.92,50.0,2
+POL/USD,720,0.0,,0.0,,0
+FLOW/USD,1559,-14.46,0.0,-18.63,0.0,1
