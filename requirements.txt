@@ -2,5 +2,6 @@ ccxt
 pandas
 numpy
 vectorbt
+plotly<7
 anthropic==0.125.0
 feedparser
