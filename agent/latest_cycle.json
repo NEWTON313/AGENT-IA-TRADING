@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-08-27T06:42:09.835172+00:00",
+  "timestamp": "2026-08-27T09:29:30.237624+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 78705.69,
+      "price": 80477.36,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Bitcoin recule sous $78-79K sur inflation PCE et anticipation de hausse des taux, malgré des prévisions haussières à long terme et des développements techniques positifs.",
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Flux d'ETF positif et soutien macro compensés par le repli sous 80K$ et les craintes de hausse des taux Fed.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2486.7,
+      "price": 2553.72,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Ether recule légèrement après une semaine de gains malgré une nouvelle technique positive sur la sécurité quantique du staking.",
-      "n_articles": 2,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Proposition proactive des développeurs pour sécuriser le staking ETH contre les attaques quantiques, perçue comme un développement technique positif et rassurant.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 101.05,
+      "price": 105.33,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "Records de transactions et rallye de 40% sur SOL contrebalancent un léger repli à court terme après une semaine de gains",
-      "n_articles": 4,
+      "sentiment_score": 0.7,
+      "sentiment_reason": "Le record de transactions et le rallye de 40% de SOL, combinés à la croissance des RWA tokenisés, indiquent un sentiment très positif malgré l'article sur Kalshi peu pertinent pour SOL.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4028,
+      "price": 1.4512,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "XRP mène les pertes sous pression d'un possible resserrement Fed, avec un effet de levier accru après un rallye qui augmente le risque de correction brutale.",
-      "n_articles": 2,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "XRP mène les pertes et affiche un risque accru de correction malgré des entrées ETF favorables, signaux mitigés à légèrement négatifs.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
