@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-27T09:29:30.237624+00:00",
+  "timestamp": "2026-08-28T11:14:55.706559+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 80477.36,
+      "price": 79699.64,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Flux d'ETF positif et soutien macro compensés par le repli sous 80K$ et les craintes de hausse des taux Fed.",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Bitcoin montre des signes de reprise (plus haut sur 3 mois, prime Coinbase, rally des mineurs) mais reste sous pression avant le discours de Warsh à Jackson Hole, créant une prudence à court terme.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2553.72,
+      "price": 2509.77,
       "ta_signal": "HOLD",
       "sentiment_score": 0.2,
-      "sentiment_reason": "Proposition proactive des développeurs pour sécuriser le staking ETH contre les attaques quantiques, perçue comme un développement technique positif et rassurant.",
-      "n_articles": 1,
+      "sentiment_reason": "Actualités globalement positives pour l'écosystème crypto (Ethena, Schwab, staking ETH) malgré des failles de sécurité mineures sans lien direct fort avec ETH/USD.",
+      "n_articles": 6,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 105.33,
+      "price": 106.45,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.7,
-      "sentiment_reason": "Le record de transactions et le rallye de 40% de SOL, combinés à la croissance des RWA tokenisés, indiquent un sentiment très positif malgré l'article sur Kalshi peu pertinent pour SOL.",
-      "n_articles": 3,
+      "sentiment_score": 0.5,
+      "sentiment_reason": "Solana surperforme le marché, adoption institutionnelle (Schwab) et innovations (MoonPay, gouvernance disinflation) renforcent un sentiment positif malgré la consolidation générale du marché.",
+      "n_articles": 6,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4512,
+      "price": 1.4291,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "XRP mène les pertes et affiche un risque accru de correction malgré des entrées ETF favorables, signaux mitigés à légèrement négatifs.",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Nouvelles positives pour l'écosystème Ripple/XRP (cotation Nasdaq imminente, expansion institutionnelle, forts inflows XRP) malgré un contexte BTC prudent.",
       "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
