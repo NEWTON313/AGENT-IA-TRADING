@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-08-29T06:58:27.319999+00:00",
+  "timestamp": "2026-08-30T05:14:55.953705+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77452.49,
+      "price": 78149.9,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Signaux mitigés : sorties d'ETF et repli sous $80K contrebalancés par un rebond, un signal de fin de bear market et une surperformance face aux actions.",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Signaux mixtes avec un rebond vers 80K$ et un possible retournement de marché baissier, mais des sorties d'ETF et une prudence de la Fed limitent l'optimisme.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2435.25,
+      "price": 2456.91,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.2,
-      "sentiment_reason": "Actualités majoritairement neutres à légèrement positives pour ETH (adoption Schwab, écosystème Ethena) malgré des incidents de sécurité mineurs sans impact direct sur ETH.",
-      "n_articles": 6,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "Nouvelles mitigées : Ethena/ENA positif mais indirect à ETH, exploits (Ledger, Sandbox bridge) pèsent légèrement sur le sentiment sécurité de l'écosystème.",
+      "n_articles": 4,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 103.6,
+      "price": 105.04,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Adoption institutionnelle (Charles Schwab) et vote validé accélérant la désinflation renforcent le sentiment positif malgré une consolidation générale du marché.",
-      "n_articles": 7,
+      "sentiment_score": 0.35,
+      "sentiment_reason": "Approbation de la désinflation accélérée de SOL et rebond du marché crypto compensent l'actualité négative liée au token GOLD de Trump.",
+      "n_articles": 6,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3811,
+      "price": 1.3941,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "Nouvelles positives sur l'expansion institutionnelle de Ripple, la préparation quantique du XRP Ledger et un potentiel listing Nasdaq renforcent la confiance dans l'écosystème XRP.",
-      "n_articles": 3,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Ripple anticipe proactivement les menaces quantiques, signal positif de développement technologique et de sécurité à long terme pour XRP Ledger.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
