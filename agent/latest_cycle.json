@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-08-30T05:14:55.953705+00:00",
+  "timestamp": "2026-08-31T05:22:48.367963+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 78149.9,
+      "price": 77979.65,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Signaux mixtes avec un rebond vers 80K$ et un possible retournement de marché baissier, mais des sorties d'ETF et une prudence de la Fed limitent l'optimisme.",
-      "n_articles": 10,
+      "sentiment_score": 0.1,
+      "sentiment_reason": "Signaux mixtes : résilience du BTC face aux tensions Iran et retour d'achat de Saylor, contrebalancés par la fin des inflows ETF et un dip sous 78K$",
+      "n_articles": 8,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2456.91,
+      "price": 2431.21,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.05,
-      "sentiment_reason": "Nouvelles mitigées : Ethena/ENA positif mais indirect à ETH, exploits (Ledger, Sandbox bridge) pèsent légèrement sur le sentiment sécurité de l'écosystème.",
-      "n_articles": 4,
+      "sentiment_score": 0.5,
+      "sentiment_reason": "Sber acceptant l'Ether comme collatéral de prêt signale une adoption institutionnelle positive pour ETH.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 105.04,
+      "price": 102.5,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.35,
-      "sentiment_reason": "Approbation de la désinflation accélérée de SOL et rebond du marché crypto compensent l'actualité négative liée au token GOLD de Trump.",
-      "n_articles": 6,
+      "sentiment_score": 0.1,
+      "sentiment_reason": "Les validateurs Solana réduisent l'inflation (positif modéré) mais l'actualité est indirecte et mêlée à un scandale de token non lié",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3941,
+      "price": 1.364,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Ripple anticipe proactivement les menaces quantiques, signal positif de développement technologique et de sécurité à long terme pour XRP Ledger.",
-      "n_articles": 1,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
