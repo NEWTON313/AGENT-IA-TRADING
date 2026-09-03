@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-02T04:19:57.494782+00:00",
+  "timestamp": "2026-09-03T04:14:22.094423+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77359.07,
+      "price": 77603.06,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "BTC stagne autour de 78 000$ avec des pressions baissières (rendements obligataires, Fed hawkish, tensions Iran, saisonnalité négative) partiellement compensées par des flux ETF positifs.",
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Pression baissière court terme (BTC sous 77K, demande négative, tensions géopolitiques) malgré des signaux structurels positifs comme les ETF et l'accumulation institutionnelle.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2408.95,
+      "price": 2400.96,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Flux ETF ETH positifs, accumulation continue de Bitmine et adoption croissante des stablecoins renforcent le sentiment haussier sur ETH.",
-      "n_articles": 5,
+      "sentiment_score": 0.25,
+      "sentiment_reason": "Signal haussier fort d'Arthur Hayes sur ETH contrebalancé par des ventes d'altcoins, un selloff macro lié à l'Iran et des déboires juridiques Tether.",
+      "n_articles": 7,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 99.92,
+      "price": 100.38,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.35,
-      "sentiment_reason": "Solana ETF enregistre une 10e session consécutive d'inflows positifs malgré un marché crypto globalement neutre à prudent",
-      "n_articles": 4,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Vente de SOL par Remixpoint et chute liée aux tensions géopolitiques (Iran) pèsent sur le sentiment malgré des nouvelles neutres sur l'infrastructure crypto.",
+      "n_articles": 5,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3455,
+      "price": 1.3657,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Adoption institutionnelle croissante (custody Ripple, ETF inflows, futures CME) et rallye de 40% renforcent un sentiment positif malgré l'absence de catalyseur majeur unique.",
-      "n_articles": 5,
+      "sentiment_score": -0.1,
+      "sentiment_reason": "Signaux mixtes : pattern baissier, ventes d'altcoins et selloff macro contrebalancés par des flux ETF XRP positifs et des partenariats institutionnels avec Ripple.",
+      "n_articles": 9,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
