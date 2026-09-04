@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-03T04:14:22.094423+00:00",
+  "timestamp": "2026-09-04T04:21:15.244992+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77603.06,
+      "price": 81110.8,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Pression baissière court terme (BTC sous 77K, demande négative, tensions géopolitiques) malgré des signaux structurels positifs comme les ETF et l'accumulation institutionnelle.",
+      "sentiment_score": 0.55,
+      "sentiment_reason": "BTC dépasse 80-81K grâce à l'affaiblissement du dollar et à des flux ETF Bitcoin en hausse, malgré un piratage isolé et des sorties sur Ether/XRP.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2400.96,
+      "price": 2511.48,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.25,
-      "sentiment_reason": "Signal haussier fort d'Arthur Hayes sur ETH contrebalancé par des ventes d'altcoins, un selloff macro lié à l'Iran et des déboires juridiques Tether.",
-      "n_articles": 7,
+      "sentiment_score": 0.35,
+      "sentiment_reason": "Adoption institutionnelle (Standard Chartered, Bybit Pay) et optimisme d'Arthur Hayes sur ETH contrebalancent les sorties d'ETF et le piratage lié à ETH.",
+      "n_articles": 8,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 100.38,
+      "price": 103.9,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Vente de SOL par Remixpoint et chute liée aux tensions géopolitiques (Iran) pèsent sur le sentiment malgré des nouvelles neutres sur l'infrastructure crypto.",
-      "n_articles": 5,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Nouvelle réglementaire favorable aux dérivés on-chain (Ondo/Solana) mais impact indirect et limité sur SOL/USD",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3657,
+      "price": 1.4515,
       "ta_signal": "HOLD",
       "sentiment_score": -0.1,
-      "sentiment_reason": "Signaux mixtes : pattern baissier, ventes d'altcoins et selloff macro contrebalancés par des flux ETF XRP positifs et des partenariats institutionnels avec Ripple.",
-      "n_articles": 9,
+      "sentiment_reason": "Fin des flux entrants ETF XRP et pattern baissier 'Bart Simpson' contrebalancent une performance relative positive face au Bitcoin.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
