@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-09-05T04:16:45.975270+00:00",
+  "timestamp": "2026-09-06T04:26:49.748511+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 79553.84,
+      "price": 79925.0,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Le rapport NFP fort a fait chuter Bitcoin sous 80K malgré des ETF inflows solides et un rebond partiel vers 81K, créant un sentiment mitigé mais légèrement négatif à court terme.",
+      "sentiment_score": 0.25,
+      "sentiment_reason": "Signaux mixtes: forte pression baissière post-NFP sous 80K mais rebond à 81K et afflux ETF records soutiennent un sentiment globalement positif à court terme.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2451.17,
+      "price": 2502.39,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "L'adoption institutionnelle (Standard Chartered, Bybit Pay) est positive mais contrebalancée par des news négatives (procès Tether, hack Coldcard lié à l'ETH).",
-      "n_articles": 4,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 101.77,
+      "price": 106.0,
       "ta_signal": "HOLD",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
@@ -29,11 +29,11 @@
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.396,
+      "price": 1.42,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.1,
+      "sentiment_reason": "Baisse des comptes actifs mais hausse de la valeur et taille des transactions, signal mitigé mais légèrement positif sur la maturité du réseau",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
