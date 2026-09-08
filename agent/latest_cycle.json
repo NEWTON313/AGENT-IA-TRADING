@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-07T04:25:24.577400+00:00",
+  "timestamp": "2026-09-08T04:25:11.725311+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 79679.99,
+      "price": 78750.01,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Un exploit de 320M$ sur Liquid pèse négativement, mais compensé par de forts inflows ETF (3.8B$) et un sentiment institutionnel positif.",
-      "n_articles": 8,
+      "sentiment_score": -0.25,
+      "sentiment_reason": "Bitcoin peine à franchir 80-83K$ avec whales vendeuses et incertitude Fed, malgré des flux institutionnels et récupérations de fonds volés positifs",
+      "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2498.6,
+      "price": 2480.36,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Un scandale de custody chez une plateforme liée à Tether ternit la confiance dans l'écosystème stablecoin, avec un impact indirect négatif sur ETH/USD.",
-      "n_articles": 1,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Développements techniques positifs pour Ethereum (upgrade Hegotá, gas sans ETH, migration Harmony) contrebalancés par des risques macro et sécurité dans l'écosystème crypto",
+      "n_articles": 7,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 105.21,
+      "price": 103.08,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Amélioration technique (taille des transactions triplée) et forte activité concurrentielle sur l'écosystème Solana, signaux modérément positifs mais sans impact direct majeur sur le prix.",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.408,
+      "price": 1.3923,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Baisse des comptes actifs compensée par des transactions plus importantes et plus de valeur échangée, signal mitigé.",
-      "n_articles": 1,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
