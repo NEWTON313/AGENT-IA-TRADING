@@ -1,35 +1,35 @@
 {
-  "timestamp": "2026-09-09T04:30:24.719485+00:00",
+  "timestamp": "2026-09-10T04:29:13.758267+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 78856.32,
+      "price": 78382.65,
       "ta_signal": "HOLD",
       "sentiment_score": -0.35,
-      "sentiment_reason": "Bitcoin teste un support critique à 78,3K$ avec un contexte baissier (selloff, ETF en perte, régulation restrictive), malgré quelques signaux positifs isolés.",
+      "sentiment_reason": "Bitcoin peine à reprendre 80K$ face aux tensions géopolitiques (Iran), au carry-trade yen et à la hausse des rendements, malgré quelques signaux positifs (ETF Zcash, on-chain profit).",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2496.65,
+      "price": 2477.78,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.35,
-      "sentiment_reason": "Accumulation continue d'ETH par Bitmine et développements techniques positifs (upgrades, quantum resistance) compensent la perte non réalisée et l'incertitude macro liée à la Fed.",
-      "n_articles": 7,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Accumulation institutionnelle d'ETH (Bitmine, StablecoinX) contrebalancée par une perte latente massive et l'incertitude liée à la restructuration Consensys",
+      "n_articles": 6,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 103.93,
+      "price": 102.09,
       "ta_signal": "HOLD",
       "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_reason": "Les articles ne concernent pas directement SOL/USD et n'apportent aucune information pertinente sur son marché.",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4281,
+      "price": 1.3916,
       "ta_signal": "HOLD",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
