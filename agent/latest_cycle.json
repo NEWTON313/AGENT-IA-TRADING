@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-12T04:26:03.236199+00:00",
+  "timestamp": "2026-09-13T04:38:02.563369+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77219.94,
+      "price": 77199.48,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Sorties de capitaux des ETF, hausse des rendements obligataires et signaux techniques mitigés pèsent sur le sentiment malgré un rebond ponctuel vers 80K$.",
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Sorties de capitaux des ETF, hausse des rendements obligataires et craintes de hausses de taux pèsent sur le sentiment malgré un rebond ponctuel vers 80K",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2510.64,
+      "price": 2520.07,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Les sorties de capitaux des ETF Bitcoin et Ether ainsi que l'incertitude réglementaire pèsent sur le sentiment de marché",
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Les sorties de capitaux des ETF Bitcoin et Ether reflètent un sentiment baissier malgré des nouvelles neutres sur la régulation et le staking.",
       "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 101.67,
+      "price": 101.7,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "Les sorties de capitaux des ETF Solana pèsent légèrement, malgré une activité réseau record via les memecoins.",
-      "n_articles": 3,
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Les sorties de capitaux des ETF Bitcoin, Ether et Solana signalent un sentiment baissier à court terme sur SOL/USD.",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3635,
+      "price": 1.364,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "L'intégration d'agents IA dans une réserve de trésorerie d'un milliard de dollars suggère une innovation positive pour Ripple, bien que l'impact direct sur XRP/USD reste incertain.",
+      "sentiment_score": 0.5,
+      "sentiment_reason": "Annonce optimiste sur le potentiel de RLUSD, indirectement positive pour l'écosystème Ripple/XRP mais sans impact direct sur XRP/USD.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
