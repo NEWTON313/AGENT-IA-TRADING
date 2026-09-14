@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-13T04:38:02.563369+00:00",
+  "timestamp": "2026-09-14T04:46:35.416344+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77199.48,
+      "price": 77656.73,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "Sorties de capitaux des ETF, hausse des rendements obligataires et craintes de hausses de taux pèsent sur le sentiment malgré un rebond ponctuel vers 80K",
-      "n_articles": 10,
+      "sentiment_score": -0.15,
+      "sentiment_reason": "Nouvelles mitigées avec suppressions d'emplois et faille de sécurité, compensées par un intérêt institutionnel croissant pour le bitcoin.",
+      "n_articles": 4,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2520.07,
+      "price": 2516.7,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Les sorties de capitaux des ETF Bitcoin et Ether reflètent un sentiment baissier malgré des nouvelles neutres sur la régulation et le staking.",
-      "n_articles": 3,
-      "action": "HOLD",
-      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
-    },
-    "SOL/USD": {
-      "price": 101.7,
-      "ta_signal": "HOLD",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "Les sorties de capitaux des ETF Bitcoin, Ether et Solana signalent un sentiment baissier à court terme sur SOL/USD.",
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Progrès réglementaire potentiel (CLARITY Act) et discours positif sur le staked ether soutiennent légèrement le sentiment ETH.",
       "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
-    "XRP/USD": {
-      "price": 1.364,
+    "SOL/USD": {
+      "price": 101.33,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "Annonce optimiste sur le potentiel de RLUSD, indirectement positive pour l'écosystème Ripple/XRP mais sans impact direct sur XRP/USD.",
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    },
+    "XRP/USD": {
+      "price": 1.3797,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "L'annonce d'une opportunité de 13 billions de dollars pour le stablecoin RLUSD de Ripple est positive mais concerne indirectement XRP/USD.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
