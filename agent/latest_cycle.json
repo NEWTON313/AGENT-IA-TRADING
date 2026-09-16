@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-15T04:45:35.768212+00:00",
+  "timestamp": "2026-09-16T04:41:58.176954+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77617.43,
+      "price": 75952.7,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Prix oscillant entre 77800 et 79000 avec géopolitique apaisée et accumulation corporate, mais contrebalancé par des sorties d'ETF Bitcoin et incertitude réglementaire du CLARITY Act.",
-      "n_articles": 9,
+      "sentiment_score": -0.7,
+      "sentiment_reason": "L'échec du CLARITY Act, les sorties massives des ETF Bitcoin et la chute du prix vers 75-76K USD dominent un sentiment clairement négatif.",
+      "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2492.74,
+      "price": 2407.6,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.25,
-      "sentiment_reason": "Accumulation d'ETH par Bitmine et progrès du Clarity Act sont positifs, mais concurrence de Solana et incertitudes réglementaires tempèrent le sentiment.",
+      "sentiment_score": -0.15,
+      "sentiment_reason": "L'échec du CLARITY Act et l'échec des discussions sur les standards de wallet Ethereum/Base pèsent légèrement, malgré des nouvelles neutres à positives comme la sécurisation des fonds volés et l'optimisme sur la tokenisation.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 101.27,
+      "price": 97.51,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Augmentation de la capacité des transactions Solana et forte collecte de fonds ETF (3 milliards $) indiquent un sentiment positif pour SOL/USD.",
-      "n_articles": 2,
+      "sentiment_score": 0.5,
+      "sentiment_reason": "Développements techniques positifs (limite de transaction augmentée) et expansion institutionnelle (Kamino, Clarity Act) renforcent le sentiment haussier sur SOL.",
+      "n_articles": 4,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4136,
+      "price": 1.3082,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Les fonds XRP attirent des flux massifs (part des 3 milliards de dollars), signe d'un fort intérêt des investisseurs contrairement au Dogecoin.",
-      "n_articles": 1,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Chute de 10% liée à l'échec du Clarity Act pèse plus que les nouvelles positives sur Ripple et l'upgrade du XRP Ledger",
+      "n_articles": 4,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
