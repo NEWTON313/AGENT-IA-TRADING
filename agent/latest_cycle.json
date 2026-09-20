@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-19T04:29:38.138350+00:00",
+  "timestamp": "2026-09-20T04:46:03.153138+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 81109.3,
+      "price": 80348.35,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Bitcoin remonte au-dessus de 80K$ malgré des vents contraires macro (taux, pétrole), avec des signaux techniques haussiers mais une demande institutionnelle qui reste faible.",
+      "sentiment_score": 0.35,
+      "sentiment_reason": "Bitcoin remonte au-dessus de 80-81K avec un croisement haussier rare et un intérêt institutionnel croissant, malgré des vents contraires macro et des critiques sur certaines trésoreries Bitcoin.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2624.48,
+      "price": 2578.32,
       "ta_signal": "HOLD",
       "sentiment_score": 0.15,
-      "sentiment_reason": "Développements techniques positifs (réduction des temps de bloc, Glamsterdam) contrebalancés par des sorties de capitaux des ETF ETH",
-      "n_articles": 4,
+      "sentiment_reason": "Développements techniques positifs pour Ethereum contrebalancés par des sorties de capitaux des ETF Ether.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 113.01,
+      "price": 108.82,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Amélioration technique mineure (vitesse des blocs) mais capacité de transaction inchangée, impact neutre à légèrement positif sur le sentiment.",
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Amélioration technique mineure (blocs plus rapides) mais sans gain de capacité transactionnelle, impact limité sur le sentiment.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4146,
+      "price": 1.3791,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Signal technique haussier (golden cross imminent) contrebalancé par des sorties de capitaux des ETF XRP, indiquant un sentiment mitigé.",
-      "n_articles": 2,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Signaux mixtes: adoption institutionnelle et golden cross positifs, mais sorties de capitaux des ETF pèsent sur le sentiment.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
