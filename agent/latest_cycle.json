@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-20T04:46:03.153138+00:00",
+  "timestamp": "2026-09-21T04:46:26.830361+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 80348.35,
+      "price": 81394.15,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.35,
-      "sentiment_reason": "Bitcoin remonte au-dessus de 80-81K avec un croisement haussier rare et un intérêt institutionnel croissant, malgré des vents contraires macro et des critiques sur certaines trésoreries Bitcoin.",
-      "n_articles": 10,
+      "sentiment_score": 0.65,
+      "sentiment_reason": "Bitcoin franchit des seuils techniques clés (moyenne mobile 50 semaines, 81 000$) évitant un krach anticipé, signaux majoritairement haussiers malgré quelques bémols sur la confirmation du bull run.",
+      "n_articles": 9,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2578.32,
+      "price": 2665.25,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Développements techniques positifs pour Ethereum contrebalancés par des sorties de capitaux des ETF Ether.",
-      "n_articles": 3,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 108.82,
+      "price": 111.51,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Amélioration technique mineure (blocs plus rapides) mais sans gain de capacité transactionnelle, impact limité sur le sentiment.",
-      "n_articles": 1,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3791,
+      "price": 1.4196,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.2,
-      "sentiment_reason": "Signaux mixtes: adoption institutionnelle et golden cross positifs, mais sorties de capitaux des ETF pèsent sur le sentiment.",
-      "n_articles": 3,
+      "sentiment_score": 0.4,
+      "sentiment_reason": "L'intérêt des asset managers pour la mise à niveau de XRP Ledger suggère une adoption institutionnelle croissante, signal légèrement positif.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
