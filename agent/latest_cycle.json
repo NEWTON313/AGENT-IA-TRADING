@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-21T04:46:26.830361+00:00",
+  "timestamp": "2026-09-22T04:43:44.081597+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 81394.15,
+      "price": 85533.02,
       "ta_signal": "HOLD",
       "sentiment_score": 0.65,
-      "sentiment_reason": "Bitcoin franchit des seuils techniques clés (moyenne mobile 50 semaines, 81 000$) évitant un krach anticipé, signaux majoritairement haussiers malgré quelques bémols sur la confirmation du bull run.",
-      "n_articles": 9,
+      "sentiment_reason": "BTC franchit 86K$ avec des achats institutionnels (Strategy, Circle) et des signaux de bull market, malgré des avertissements sur l'effet de levier.",
+      "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2665.25,
+      "price": 2730.08,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Signaux mixtes: migration Trueo et achat institutionnel d'ETH par Bitmine sont positifs, mais critiques de Samani sur l'usage d'ETH tempèrent le sentiment.",
+      "n_articles": 5,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 111.51,
+      "price": 116.64,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.6,
+      "sentiment_reason": "Adoption croissante de Solana (AI agents, Ondo, migration ZetaChain) et prédiction bullish de Samani renforcent un sentiment positif.",
+      "n_articles": 4,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4196,
+      "price": 1.5163,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "L'intérêt des asset managers pour la mise à niveau de XRP Ledger suggère une adoption institutionnelle croissante, signal légèrement positif.",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "XRP Ledger est cité positivement comme acteur potentiel des paiements IA, mais l'article reste informatif sans impact direct majeur sur le prix.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
