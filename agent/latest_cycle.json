@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-22T04:43:44.081597+00:00",
+  "timestamp": "2026-09-23T04:37:32.245061+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 85533.02,
+      "price": 87231.22,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.65,
-      "sentiment_reason": "BTC franchit 86K$ avec des achats institutionnels (Strategy, Circle) et des signaux de bull market, malgré des avertissements sur l'effet de levier.",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Bitcoin se stabilise près de 86-87K$ avec un rebond soutenu par la baisse du pétrole, un marché crypto repassant les 3 000 milliards $ et des signaux d'altseason, malgré une dominance BTC en recul.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2730.08,
+      "price": 2783.05,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Signaux mixtes: migration Trueo et achat institutionnel d'ETH par Bitmine sont positifs, mais critiques de Samani sur l'usage d'ETH tempèrent le sentiment.",
-      "n_articles": 5,
+      "sentiment_score": -0.15,
+      "sentiment_reason": "Migration Trueo vers Ethereum est positive mais contrebalancée par les critiques de Kyle Samani sur l'usage d'ETH et le bruit réglementaire général du marché crypto.",
+      "n_articles": 7,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 116.64,
+      "price": 119.52,
       "ta_signal": "HOLD",
       "sentiment_score": 0.6,
-      "sentiment_reason": "Adoption croissante de Solana (AI agents, Ondo, migration ZetaChain) et prédiction bullish de Samani renforcent un sentiment positif.",
-      "n_articles": 4,
+      "sentiment_reason": "Actualités positives pour l'écosystème Solana (Ondo, Cardano, prédiction de flippening SOL/ETH) renforcent le sentiment haussier malgré l'absence de catalyseur direct majeur.",
+      "n_articles": 5,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.5163,
+      "price": 1.6474,
       "ta_signal": "HOLD",
       "sentiment_score": 0.3,
-      "sentiment_reason": "XRP Ledger est cité positivement comme acteur potentiel des paiements IA, mais l'article reste informatif sans impact direct majeur sur le prix.",
+      "sentiment_reason": "XRP Ledger est mentionné positivement comme acteur potentiel des paiements pour agents IA, une nouvelle légèrement positive mais générique.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
