@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-23T04:37:32.245061+00:00",
+  "timestamp": "2026-09-24T04:36:22.415046+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 87231.22,
+      "price": 83903.64,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "Bitcoin se stabilise près de 86-87K$ avec un rebond soutenu par la baisse du pétrole, un marché crypto repassant les 3 000 milliards $ et des signaux d'altseason, malgré une dominance BTC en recul.",
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Pression baissière court terme (chute sous $84K, liquidations, hausse des taux) contrebalancée par des signaux positifs (afflux ETF, bull market confirmé, adoption produits)",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2783.05,
+      "price": 2676.31,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "Migration Trueo vers Ethereum est positive mais contrebalancée par les critiques de Kyle Samani sur l'usage d'ETH et le bruit réglementaire général du marché crypto.",
-      "n_articles": 7,
-      "action": "HOLD",
-      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
-    },
-    "SOL/USD": {
-      "price": 119.52,
-      "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Actualités positives pour l'écosystème Solana (Ondo, Cardano, prédiction de flippening SOL/ETH) renforcent le sentiment haussier malgré l'absence de catalyseur direct majeur.",
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Transfert de 75M$ d'ETH lié à FTX/Alameda vers Wintermute suscite des craintes de vente, contrebalancé par des nouvelles neutres à légèrement positives sur l'écosystème crypto.",
       "n_articles": 5,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
-    "XRP/USD": {
-      "price": 1.6474,
+    "SOL/USD": {
+      "price": 114.93,
       "ta_signal": "HOLD",
       "sentiment_score": 0.3,
-      "sentiment_reason": "XRP Ledger est mentionné positivement comme acteur potentiel des paiements pour agents IA, une nouvelle légèrement positive mais générique.",
+      "sentiment_reason": "L'upgrade technique majeure de Solana est positive, mais la mort d'un ancien cadre Solana ajoute une note négative pesant sur le sentiment global.",
+      "n_articles": 3,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    },
+    "XRP/USD": {
+      "price": 1.4958,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Une mise à jour technique facilitant l'adoption bancaire est plutôt positive mais l'impact reste incertain et limité à court terme.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
