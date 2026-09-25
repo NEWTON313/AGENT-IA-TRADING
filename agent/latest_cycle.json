@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-09-24T04:36:22.415046+00:00",
+  "timestamp": "2026-09-25T04:46:37.047227+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 83903.64,
+      "price": 84265.64,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Pression baissière court terme (chute sous $84K, liquidations, hausse des taux) contrebalancée par des signaux positifs (afflux ETF, bull market confirmé, adoption produits)",
+      "sentiment_score": -0.45,
+      "sentiment_reason": "Bitcoin recule sous 84K$ en raison de la hausse des rendements obligataires à 19 ans et d'anticipations de hausses de taux Fed, malgré des signaux techniques mitigés",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2676.31,
+      "price": 2683.74,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Transfert de 75M$ d'ETH lié à FTX/Alameda vers Wintermute suscite des craintes de vente, contrebalancé par des nouvelles neutres à légèrement positives sur l'écosystème crypto.",
-      "n_articles": 5,
-      "action": "HOLD",
-      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
-    },
-    "SOL/USD": {
-      "price": 114.93,
-      "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "L'upgrade technique majeure de Solana est positive, mais la mort d'un ancien cadre Solana ajoute une note négative pesant sur le sentiment global.",
+      "sentiment_score": -0.15,
+      "sentiment_reason": "Institutions préfèrent le Bitcoin avec des conditions de sortie sur Ether, et l'accusation de wash trading sur Kalshi crée une légère incertitude malgré des nouvelles neutres sur Trump/Strategy.",
       "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
-    "XRP/USD": {
-      "price": 1.4958,
+    "SOL/USD": {
+      "price": 117.19,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Une mise à jour technique facilitant l'adoption bancaire est plutôt positive mais l'impact reste incertain et limité à court terme.",
-      "n_articles": 1,
+      "sentiment_score": 0.25,
+      "sentiment_reason": "Renforcement de l'équipe et partenariats institutionnels positifs pour Solana, mais tempérés par un contexte macro incertain (drawdown, exit conditions) et une nouvelle tragique sans impact direct sur le prix.",
+      "n_articles": 5,
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+    },
+    "XRP/USD": {
+      "price": 1.5388,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
