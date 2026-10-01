@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-30T05:24:10.971784+00:00",
+  "timestamp": "2026-10-01T05:40:47.843396+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 83271.08,
+      "price": 84263.07,
       "ta_signal": "HOLD",
       "sentiment_score": 0.15,
-      "sentiment_reason": "Signaux mitigés: rebond autour de 84K et optimisme long terme, mais pression des rendements obligataires, résistance à 85K et flux ETF en baisse limitent l'élan haussier.",
+      "sentiment_reason": "Flux d'ETF positifs et meilleur trimestre depuis 2024 compensés par stagnation du rallye, pression des rendements obligataires et signaux de refroidissement.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2670.86,
+      "price": 2716.59,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Développements techniques positifs (Glamsterdam, zk.money) et accumulation institutionnelle (BitMine) contrebalancés par un ralentissement des flux ETF, restant globalement légèrement haussier pour ETH.",
-      "n_articles": 6,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "Signaux mixtes : ETH termine un bon trimestre mais subit des sorties d'ETF et un incident de sécurité MetaMask, compensés par des nouvelles neutres à légèrement positives sur l'écosystème.",
+      "n_articles": 7,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 118.88,
+      "price": 119.44,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.05,
-      "sentiment_reason": "Peu d'actualités spécifiques à SOL; contexte macro mitigé avec ralentissement des flux ETF mais marché crypto globalement stable.",
-      "n_articles": 4,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "L'article concerne Bitcoin et XRP sans mention directe de SOL/USD, donc impact neutre et incertain",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4976,
+      "price": 1.5085,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Adoption institutionnelle positive (XRP Ledger, Brésil) et flux ETF toujours positifs mais en ralentissement, contrebalancés par des critiques négatives de Brandt sur XRP.",
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Signaux mixtes : hausse des dépôts suggérant pression vendeuse et critique de Brandt, partiellement compensés par l'adoption XRP Ledger au Brésil.",
       "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
