@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-01T05:40:47.843396+00:00",
+  "timestamp": "2026-10-02T05:25:36.505514+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 84263.07,
+      "price": 86334.03,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Flux d'ETF positifs et meilleur trimestre depuis 2024 compensés par stagnation du rallye, pression des rendements obligataires et signaux de refroidissement.",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "ETF inflows records, hausse trimestrielle de 43% et relèvement d'objectif Citigroup compensent la résistance sous 86K et les risques de sécurité/juridiques.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2716.59,
+      "price": 2726.84,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.05,
-      "sentiment_reason": "Signaux mixtes : ETH termine un bon trimestre mais subit des sorties d'ETF et un incident de sécurité MetaMask, compensés par des nouvelles neutres à légèrement positives sur l'écosystème.",
-      "n_articles": 7,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Adoption technique positive (zkAPI) et trimestre record pour ether contrebalancés par un incident de sécurité MetaMask et des inquiétudes macro/stablecoin.",
+      "n_articles": 9,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 119.44,
+      "price": 122.65,
       "ta_signal": "HOLD",
       "sentiment_score": 0.0,
-      "sentiment_reason": "L'article concerne Bitcoin et XRP sans mention directe de SOL/USD, donc impact neutre et incertain",
-      "n_articles": 1,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.5085,
+      "price": 1.5202,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Signaux mixtes : hausse des dépôts suggérant pression vendeuse et critique de Brandt, partiellement compensés par l'adoption XRP Ledger au Brésil.",
-      "n_articles": 3,
+      "sentiment_score": 0.6,
+      "sentiment_reason": "L'approbation des actionnaires et le débat Nasdaq avec une trésorerie XRP massive signalent une adoption institutionnelle positive",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
