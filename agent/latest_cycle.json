@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-10-02T05:25:36.505514+00:00",
+  "timestamp": "2026-10-03T05:08:38.002423+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 86334.03,
+      "price": 84552.63,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "ETF inflows records, hausse trimestrielle de 43% et relèvement d'objectif Citigroup compensent la résistance sous 86K et les risques de sécurité/juridiques.",
+      "sentiment_score": 0.5,
+      "sentiment_reason": "Bitcoin approche les 87K$ avec des entrées ETF positives, un mode risk-on et une dominance croissante, malgré une légère consolidation après les données sur l'emploi.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2726.84,
+      "price": 2673.5,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Adoption technique positive (zkAPI) et trimestre record pour ether contrebalancés par un incident de sécurité MetaMask et des inquiétudes macro/stablecoin.",
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Fermeture de Blast, sorties de fonds ETF Ether et incidents de sécurité pèsent malgré quelques avancées techniques comme zkAPI.",
       "n_articles": 9,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 122.65,
+      "price": 119.12,
       "ta_signal": "HOLD",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
@@ -29,10 +29,10 @@
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.5202,
+      "price": 1.4867,
       "ta_signal": "HOLD",
       "sentiment_score": 0.6,
-      "sentiment_reason": "L'approbation des actionnaires et le débat Nasdaq avec une trésorerie XRP massive signalent une adoption institutionnelle positive",
+      "sentiment_reason": "L'approbation du vote des actionnaires et la cotation Nasdaq imminente avec une importante trésorerie XRP renforcent la confiance institutionnelle dans l'actif.",
       "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
