@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-05T05:26:03.054593+00:00",
+  "timestamp": "2026-10-06T06:10:51.877185+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 85463.35,
+      "price": 85262.06,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "Bitcoin approche un sommet de 8 mois et des prévisions haussières à long terme dominent, malgré un repli récent et une liquidité Ethereum plus faible.",
-      "n_articles": 5,
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Bitcoin résiste près de 87K$ avec un support macro (rendements, trésoreries d'entreprises) mais sans franchissement haussier clair, signal globalement neutre à légèrement positif.",
+      "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2695.49,
+      "price": 2692.31,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Rallye d'Ether affaibli par une liquidité amincie, signal légèrement négatif et peu d'autres infos pertinentes pour ETH/USD.",
-      "n_articles": 2,
+      "sentiment_score": -0.15,
+      "sentiment_reason": "Signaux mitigés : sorties des ETF Ether et file d'attente de staking contrastent avec l'avancée technique Glamsterdam, sans catalyseur haussier clair.",
+      "n_articles": 8,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 120.1,
+      "price": 119.29,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.7,
+      "sentiment_reason": "Adoption institutionnelle avec le soutien de JPMorgan pour un règlement rapide des échanges, signal positif pour Solana.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.5007,
+      "price": 1.4919,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.05,
-      "sentiment_reason": "Mécontentement de la communauté XRP envers la nomination de Jay Clayton, mais l'article reste globalement neutre et axé sur Bitcoin",
-      "n_articles": 1,
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Surge d'un SPAC lié à XRP et optimisme crypto général, malgré un mécontentement de la communauté XRP envers une nomination politique.",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
