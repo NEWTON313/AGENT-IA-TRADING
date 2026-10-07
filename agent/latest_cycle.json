@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-06T06:10:51.877185+00:00",
+  "timestamp": "2026-10-07T05:45:57.707976+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 85262.06,
+      "price": 84205.79,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Bitcoin résiste près de 87K$ avec un support macro (rendements, trésoreries d'entreprises) mais sans franchissement haussier clair, signal globalement neutre à légèrement positif.",
+      "sentiment_score": -0.35,
+      "sentiment_reason": "BTC recule sous les 84-87K avec sorties d'ETF, outflows d'exchanges et pression géopolitique/macro, malgré une relative stabilité face aux actions.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2692.31,
+      "price": 2616.8,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "Signaux mitigés : sorties des ETF Ether et file d'attente de staking contrastent avec l'avancée technique Glamsterdam, sans catalyseur haussier clair.",
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Avancées techniques positives (Glamsterdam, EEZ, rotation de capital) contrebalancées par des signaux négatifs (fermeture L2, perte de parts de marché face à l'or, litige Tether).",
       "n_articles": 8,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 119.29,
+      "price": 118.67,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.7,
-      "sentiment_reason": "Adoption institutionnelle avec le soutien de JPMorgan pour un règlement rapide des échanges, signal positif pour Solana.",
-      "n_articles": 1,
+      "sentiment_score": 0.6,
+      "sentiment_reason": "Adoption institutionnelle croissante avec le lancement DvP et rotation de capital potentielle vers Solana renforcent le sentiment positif.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4919,
+      "price": 1.4692,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "Surge d'un SPAC lié à XRP et optimisme crypto général, malgré un mécontentement de la communauté XRP envers une nomination politique.",
-      "n_articles": 2,
+      "sentiment_score": 0.7,
+      "sentiment_reason": "Expansion des partenariats institutionnels de Ripple (Brevan Howard, OKX) et forte hausse d'un SPAC lié à XRP indiquent une dynamique très positive.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
