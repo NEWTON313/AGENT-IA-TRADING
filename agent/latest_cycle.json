@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-10-09T05:58:26.773969+00:00",
+  "timestamp": "2026-10-10T05:41:21.844651+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 82321.19,
+      "price": 82727.04,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Bitcoin approche d'un creux de 3 semaines sous pression des tensions Iran/pétrole, malgré un léger rebond et des nouvelles institutionnelles mitigées.",
+      "sentiment_score": 0.05,
+      "sentiment_reason": "Marché mitigé: stabilisation près de 82,5K et signaux positifs (ETF Thaïlande, financement) contrebalancés par liquidations massives, vol Ledger et risques géopolitiques.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2490.16,
+      "price": 2496.67,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Liquidations massives, sorties ETF Ether continues, craintes 'bunker mode' IA et incertitude réglementaire pèsent sur le sentiment malgré l'avancée des ETF en Thaïlande.",
+      "sentiment_score": -0.4,
+      "sentiment_reason": "Les sorties massives des ETF Ether et les inquiétudes réglementaires/Tether pèsent sur le sentiment, malgré des nouvelles positives sur les ETF en Thaïlande.",
       "n_articles": 9,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 110.3,
+      "price": 110.27,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "L'adoption croissante de Solana pour les actions tokenisées (Securitize, Apple, Nvidia, Tesla) renforce l'écosystème malgré des risques persistants sur le crédit crypto",
-      "n_articles": 3,
+      "sentiment_score": 0.5,
+      "sentiment_reason": "Nouvelles positives spécifiques à Solana (upgrade réduisant les temps de bloc, lancement d'actions tokenisées via Securitize) contrebalancent le sentiment crypto global mitigé.",
+      "n_articles": 7,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3964,
+      "price": 1.4114,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "Les nouvelles fonctionnalités institutionnelles du XRP Ledger et la diversification des revenus de Ripple renforcent la confiance et l'adoption, signal positif pour XRP/USD.",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Correction d'une faille critique et nouvelles fonctionnalités institutionnelles renforcent la confiance malgré le risque révélé",
       "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
