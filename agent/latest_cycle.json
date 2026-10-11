@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-10T05:41:21.844651+00:00",
+  "timestamp": "2026-10-11T05:36:19.110744+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 82727.04,
+      "price": 82991.16,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.05,
-      "sentiment_reason": "Marché mitigé: stabilisation près de 82,5K et signaux positifs (ETF Thaïlande, financement) contrebalancés par liquidations massives, vol Ledger et risques géopolitiques.",
+      "sentiment_score": 0.1,
+      "sentiment_reason": "Marché stabilisé près de 82,5K$ malgré vol de Ledger et risques sécuritaires, soutenu par des nouvelles géopolitiques positives et l'ouverture d'ETF en Thaïlande.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2496.67,
+      "price": 2505.37,
       "ta_signal": "HOLD",
       "sentiment_score": -0.4,
-      "sentiment_reason": "Les sorties massives des ETF Ether et les inquiétudes réglementaires/Tether pèsent sur le sentiment, malgré des nouvelles positives sur les ETF en Thaïlande.",
-      "n_articles": 9,
+      "sentiment_reason": "Les sorties massives des ETF Ether (8 sessions consécutives) et les craintes de liquidité pèsent sur le sentiment malgré des nouvelles réglementaires positives en Thaïlande.",
+      "n_articles": 5,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 110.27,
+      "price": 109.46,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "Nouvelles positives spécifiques à Solana (upgrade réduisant les temps de bloc, lancement d'actions tokenisées via Securitize) contrebalancent le sentiment crypto global mitigé.",
-      "n_articles": 7,
+      "sentiment_score": -0.1,
+      "sentiment_reason": "Actualités générales crypto (fraude Celsius, vol Ledger, marché Bitcoin) sans lien direct avec SOL, climat légèrement négatif mais faible impact spécifique.",
+      "n_articles": 4,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.4114,
+      "price": 1.3944,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Correction d'une faille critique et nouvelles fonctionnalités institutionnelles renforcent la confiance malgré le risque révélé",
-      "n_articles": 2,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "La correction proactive d'une faille critique renforce la confiance dans la sécurité du réseau, bien que la découverte d'une telle vulnérabilité soit en soi préoccupante.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
