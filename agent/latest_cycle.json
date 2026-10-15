@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-14T04:43:46.371338+00:00",
+  "timestamp": "2026-10-15T04:26:29.734990+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 83654.46,
+      "price": 81089.73,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "Bitcoin approche les 84K$ avec soutien des achats institutionnels (Strive, Sberbank) malgré une volatilité liée aux actions tech asiatiques.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "CPI plus élevé que prévu, hausse des rendements obligataires et chute des mineurs/actions liées au Bitcoin créent une pression baissière dominante.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2513.17,
+      "price": 2369.76,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.25,
-      "sentiment_reason": "Nouvelles globalement positives (adoption Sberbank, achats ether Bitmine) compensées par le déclin de Blur et une légère volatilité liée aux marchés coréens",
-      "n_articles": 6,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "L'expansion des services de trading par Standard Chartered est positive, mais le retrait de la demande d'ETF par VanEck tempère légèrement le sentiment.",
+      "n_articles": 3,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 107.98,
+      "price": 103.2,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "L'upgrade Alpenglow et l'adoption des actions tokenisées sur Solana sont positifs, mais les autres actualités concernent surtout la sécurité des wallets sans lien direct avec SOL.",
-      "n_articles": 4,
+      "sentiment_score": 0.5,
+      "sentiment_reason": "La mise à niveau Alpenglow et l'adoption croissante des actions tokenisées sur Solana sont des signaux positifs pour l'écosystème.",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3758,
+      "price": 1.312,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Evernorth's Nasdaq debut et son +5% sont positifs mais compensés par des liquidations élevées sur produits tokenisés liés à XRP.",
-      "n_articles": 3,
+      "sentiment_score": 0.4,
+      "sentiment_reason": "L'intégration de portefeuilles Stripe sur XRP Ledger et l'essor des actifs tokenisés suggèrent une adoption croissante, légèrement positive pour XRP.",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
