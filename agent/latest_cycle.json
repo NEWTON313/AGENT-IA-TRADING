@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-16T04:21:24.038768+00:00",
+  "timestamp": "2026-10-17T04:13:54.820016+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 81960.36,
+      "price": 81452.95,
       "ta_signal": "HOLD",
       "sentiment_score": -0.35,
-      "sentiment_reason": "Bitcoin a chuté sous 80K$ suite à l'inflation PPI et au krach boursier asiatique, malgré un léger rebond et des nouvelles neutres à positives sur les ETF et la DeFi",
+      "sentiment_reason": "Bitcoin recule vers 81-82K sous pression macro et menaces quantiques, malgré quelques signaux neutres à légèrement positifs",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2438.59,
+      "price": 2423.64,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Liquidations massives, retrait d'une demande d'ETF VanEck et incertitudes autour de Starknet pèsent sur le sentiment malgré le lancement d'ETF en Thaïlande.",
-      "n_articles": 6,
+      "sentiment_score": -0.15,
+      "sentiment_reason": "Signaux mitigés : exploit OpenAI sur testnet ETH et vote Starknet pour quitter Ethereum pèsent légèrement face à des nouvelles neutres/positives comme les ETF ETH en Asie.",
+      "n_articles": 8,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "SOL/USD": {
-      "price": 105.42,
+      "price": 104.67,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Actualité sur un nouveau produit Ledger sans lien direct avec SOL/USD, impact négligeable sur le sentiment de marché.",
-      "n_articles": 1,
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Forte demande pour l'événement Solana à Shanghai est un signal légèrement positif, mais peu de lien direct avec le prix SOL/USD",
+      "n_articles": 2,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "XRP/USD": {
-      "price": 1.3332,
+      "price": 1.3063,
       "ta_signal": "HOLD",
       "sentiment_score": -0.5,
-      "sentiment_reason": "Les sorties de capitaux des ETF Bitcoin et les liquidations massives incluant XRP signalent une pression baissière, bien que XRP résiste légèrement mieux que le marché global.",
-      "n_articles": 2,
+      "sentiment_reason": "L'article souligne que XRP n'a pas généré de gains comparables à bitcoin et ether, suggérant une sous-performance perçue négativement.",
+      "n_articles": 1,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     }
