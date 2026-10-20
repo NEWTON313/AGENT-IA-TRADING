@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-19T04:29:38.177069+00:00",
+  "timestamp": "2026-10-20T04:39:41.856521+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 82395.02,
+      "price": 82015.94,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Signaux mixtes: rebond lié au GDP chinois et apaisement possible de la peur de Wall Street, contrebalancés par incertitude sur l'inflation et les 100k$ ainsi que des nouvelles négatives sectorielles (Heart, Starknet).",
-      "n_articles": 5,
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Achats institutionnels continus (Strive, Strategy, Metaplanet) compensent la faiblesse technique avec rejet à 83K et range serré autour de 82K.",
+      "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2417.41,
+      "price": 2409.93,
       "ta_signal": "SELL",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Nouvelle sur un investissement de Tether dans AIsa, peu pertinente et faible impact direct sur ETH/USD",
-      "n_articles": 1,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Les sorties massives des ETF ETH et la baisse du stablecoin USD1 pèsent négativement, partiellement compensées par l'adoption institutionnelle positive de JPM Coin sur Ethereum.",
+      "n_articles": 7,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 105.06,
+      "price": 105.09,
       "ta_signal": "SELL",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Fidelity souligne la résilience de Solana (pas de panne en 2 ans) mais note des risques de concentration à surveiller, ce qui tempère le sentiment positif.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "La liquidation totale des avoirs SOL par une société de trésorerie signale un désengagement négatif pour le marché, malgré le rachat d'actions qui est un sujet distinct.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.3087,
+      "price": 1.3048,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.1,
+      "sentiment_reason": "Correction proactive d'un bug avant déploiement, signal neutre à légèrement positif pour la sécurité du réseau XRP Ledger.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
