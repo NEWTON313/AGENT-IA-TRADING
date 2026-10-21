@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-20T04:39:41.856521+00:00",
+  "timestamp": "2026-10-21T04:32:47.300167+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 82015.94,
+      "price": 82790.74,
       "ta_signal": "HOLD",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Achats institutionnels continus (Strive, Strategy, Metaplanet) compensent la faiblesse technique avec rejet à 83K et range serré autour de 82K.",
+      "sentiment_score": 0.35,
+      "sentiment_reason": "BTC proche de 83K avec adoption institutionnelle positive (ETF Suisse, JPMorgan, Strive) mais contrebalancée par des risques réglementaires et de gouvernance (Kazakhstan, Coinbase).",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2409.93,
+      "price": 2443.05,
       "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Les sorties massives des ETF ETH et la baisse du stablecoin USD1 pèsent négativement, partiellement compensées par l'adoption institutionnelle positive de JPM Coin sur Ethereum.",
-      "n_articles": 7,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "JPMorgan déployant JPM Coin sur Ethereum est positif pour l'adoption, mais contrebalancé par un hack lié à un exploiteur blanchissant via Tornado Cash.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 105.09,
+      "price": 105.83,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "La liquidation totale des avoirs SOL par une société de trésorerie signale un désengagement négatif pour le marché, malgré le rachat d'actions qui est un sujet distinct.",
-      "n_articles": 1,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "SkyAI liquide toute sa trésorerie SOL et BlackRock continue d'ignorer Solana pour ses ETF, signaux négatifs pour SOL.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.3048,
+      "price": 1.3325,
       "ta_signal": "SELL",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Correction proactive d'un bug avant déploiement, signal neutre à légèrement positif pour la sécurité du réseau XRP Ledger.",
-      "n_articles": 1,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Les afflux massifs de XRP vers les exchanges signalent une pression vendeuse potentielle, tandis que l'absence d'ETF XRP chez BlackRock prive l'actif d'un catalyseur positif.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
