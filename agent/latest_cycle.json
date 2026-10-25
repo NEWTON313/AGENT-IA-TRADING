@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-24T04:26:09.812051+00:00",
+  "timestamp": "2026-10-25T04:30:16.044578+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 80761.43,
+      "price": 80770.38,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Bitcoin recule sous pression des craintes IA, hausse du pétrole et sorties d'ETF, malgré une stabilisation autour de 81K$",
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Bitcoin recule sous pression macro (tensions Moyen-Orient, pétrole en hausse, craintes liées à l'IA) malgré des signes de maturation du marché institutionnel.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2378.21,
+      "price": 2362.42,
       "ta_signal": "SELL",
-      "sentiment_score": -0.25,
-      "sentiment_reason": "Multiples exploits et failles de sécurité (Initia, Cysic, retard Glamsterdam) pèsent sur le sentiment malgré des nouvelles neutres à positives comme le plan de règlement à 4 minutes d'Ethereum.",
-      "n_articles": 9,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Multiples exploits et failles de sécurité (Initia, Cysic) ainsi que le retard de Glamsterdam pèsent sur le sentiment malgré l'absence d'impact direct majeur sur ETH.",
+      "n_articles": 6,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 102.47,
+      "price": 102.42,
       "ta_signal": "SELL",
       "sentiment_score": -0.2,
-      "sentiment_reason": "Pas d'actualité directe sur SOL, mais le contexte macro crypto est légèrement négatif avec la correction du marché liée aux craintes sur l'IA.",
-      "n_articles": 3,
+      "sentiment_reason": "Faiblesse du marché crypto liée aux craintes sur l'IA, partiellement compensée par une actualité réglementaire neutre à légèrement positive pour la fiscalité crypto.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.2892,
+      "price": 1.3087,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.6,
+      "sentiment_reason": "L'ajout de 150M$ en parts de fonds par Franklin Templeton sur le XRP Ledger renforce la confiance institutionnelle et l'adoption du réseau.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
