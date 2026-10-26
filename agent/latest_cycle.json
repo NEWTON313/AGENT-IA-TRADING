@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-10-25T04:30:16.044578+00:00",
+  "timestamp": "2026-10-26T04:33:52.174610+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 80770.38,
-      "ta_signal": "HOLD",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Bitcoin recule sous pression macro (tensions Moyen-Orient, pétrole en hausse, craintes liées à l'IA) malgré des signes de maturation du marché institutionnel.",
-      "n_articles": 10,
-      "action": "HOLD",
-      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+      "price": 79908.71,
+      "ta_signal": "SELL",
+      "sentiment_score": -0.4,
+      "sentiment_reason": "Chute du BTC sous 80 000$ liée aux tensions géopolitiques au Moyen-Orient et pressions sur les dividendes des entreprises crypto pèsent sur le sentiment malgré des signes de maturité des investisseurs.",
+      "n_articles": 4,
+      "action": "SELL",
+      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2362.42,
+      "price": 2312.05,
       "ta_signal": "SELL",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Multiples exploits et failles de sécurité (Initia, Cysic) ainsi que le retard de Glamsterdam pèsent sur le sentiment malgré l'absence d'impact direct majeur sur ETH.",
-      "n_articles": 6,
+      "sentiment_score": 0.05,
+      "sentiment_reason": "Article informatif de type digest sans impact direct clair sur le prix d'ETH/USD.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 102.42,
+      "price": 100.84,
       "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Faiblesse du marché crypto liée aux craintes sur l'IA, partiellement compensée par une actualité réglementaire neutre à légèrement positive pour la fiscalité crypto.",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Adoption institutionnelle positive à Hong Kong pour Solana, compensée par une actualité neutre/non directement liée sur le blockchain et les sanctions israéliennes.",
       "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.3087,
+      "price": 1.2846,
       "ta_signal": "SELL",
       "sentiment_score": 0.6,
-      "sentiment_reason": "L'ajout de 150M$ en parts de fonds par Franklin Templeton sur le XRP Ledger renforce la confiance institutionnelle et l'adoption du réseau.",
+      "sentiment_reason": "L'adoption institutionnelle par Franklin Templeton sur XRP Ledger renforce la confiance et la légitimité de l'actif.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
