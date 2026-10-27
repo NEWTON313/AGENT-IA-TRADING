@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-26T04:33:52.174610+00:00",
+  "timestamp": "2026-10-27T04:52:10.142608+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 79908.71,
+      "price": 79543.81,
       "ta_signal": "SELL",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Chute du BTC sous 80 000$ liée aux tensions géopolitiques au Moyen-Orient et pressions sur les dividendes des entreprises crypto pèsent sur le sentiment malgré des signes de maturité des investisseurs.",
-      "n_articles": 4,
+      "sentiment_score": -0.25,
+      "sentiment_reason": "BTC teste le support des 80 000$ avec prudence des traders avant la Fed, malgré un léger rebond des flux ETF.",
+      "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2312.05,
+      "price": 2306.85,
       "ta_signal": "SELL",
-      "sentiment_score": 0.05,
-      "sentiment_reason": "Article informatif de type digest sans impact direct clair sur le prix d'ETH/USD.",
-      "n_articles": 1,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Bitmine privilégie les rachats d'actions aux achats d'ETH durant la baisse crypto, signal légèrement négatif malgré des nouvelles neutres sur la fiscalité coréenne et le fork Ethereum.",
+      "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 100.84,
+      "price": 99.96,
       "ta_signal": "SELL",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "Adoption institutionnelle positive à Hong Kong pour Solana, compensée par une actualité neutre/non directement liée sur le blockchain et les sanctions israéliennes.",
-      "n_articles": 2,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Nouvelle positive sur l'adoption institutionnelle de Solana à Hong Kong compense l'actualité neutre sur la tokenisation et le bruit géopolitique sans lien direct.",
+      "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.2846,
+      "price": 1.2962,
       "ta_signal": "SELL",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "L'adoption institutionnelle par Franklin Templeton sur XRP Ledger renforce la confiance et la légitimité de l'actif.",
-      "n_articles": 1,
+      "sentiment_score": 0.8,
+      "sentiment_reason": "L'approbation réglementaire de Ripple et l'adoption institutionnelle d'XRP Ledger par Aviva renforcent fortement la confiance du marché.",
+      "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
