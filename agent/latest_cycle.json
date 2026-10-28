@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-27T04:52:10.142608+00:00",
+  "timestamp": "2026-10-28T05:27:36.505669+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 79543.81,
-      "ta_signal": "SELL",
-      "sentiment_score": -0.25,
-      "sentiment_reason": "BTC teste le support des 80 000$ avec prudence des traders avant la Fed, malgré un léger rebond des flux ETF.",
+      "price": 80834.46,
+      "ta_signal": "HOLD",
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Signaux mixtes : adoption institutionnelle et rallye haussier contrebalancés par le passage sous 80 000$ et les craintes liées au Fed et au quantique.",
       "n_articles": 10,
-      "action": "SELL",
-      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
+      "action": "HOLD",
+      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2306.85,
+      "price": 2353.4,
       "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Bitmine privilégie les rachats d'actions aux achats d'ETH durant la baisse crypto, signal légèrement négatif malgré des nouvelles neutres sur la fiscalité coréenne et le fork Ethereum.",
-      "n_articles": 3,
+      "sentiment_score": 0.1,
+      "sentiment_reason": "Nouvelles mitigées: optimisme crypto général et correction de bug Ethereum positifs, mais Bitmine privilégiant les rachats d'actions à l'achat d'ether signale une prudence baissière.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 99.96,
+      "price": 101.89,
       "ta_signal": "SELL",
       "sentiment_score": 0.3,
-      "sentiment_reason": "Nouvelle positive sur l'adoption institutionnelle de Solana à Hong Kong compense l'actualité neutre sur la tokenisation et le bruit géopolitique sans lien direct.",
+      "sentiment_reason": "Adoption institutionnelle croissante et optimisme sur les cryptos compensent une news neutre sur le spam de bugs Solana.",
       "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.2962,
+      "price": 1.3272,
       "ta_signal": "SELL",
-      "sentiment_score": 0.8,
-      "sentiment_reason": "L'approbation réglementaire de Ripple et l'adoption institutionnelle d'XRP Ledger par Aviva renforcent fortement la confiance du marché.",
-      "n_articles": 3,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Les nouvelles sur l'expansion de Ripple (partenariat Robinhood, approbation bancaire) sont positives pour l'entreprise, mais le prix de XRP ne réagit pas favorablement selon CoinDesk.",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
