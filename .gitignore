@@ -3,6 +3,13 @@ __pycache__/
 .venv/
 .claude/
 
+# Secrets — dépôt public : aucune clé ne doit jamais être versionnée
+.env
+.env.*
+!.env.example
+*.pem
+*api_key*.json
+
 # Données de marché mises en cache — re-téléchargées à chaque run, pas besoin de les versionner
 *_daily_full.csv
 *_weekly_full.csv
