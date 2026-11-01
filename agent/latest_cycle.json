@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-10-31T05:24:29.202818+00:00",
+  "timestamp": "2026-11-01T05:51:03.672198+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77112.32,
+      "price": 77738.87,
       "ta_signal": "HOLD",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Le piratage de Binance de 6,3 milliards $, la chute des actions crypto et un risque de pire octobre en 12 ans pèsent sur le sentiment, malgré quelques signes de rebond potentiel.",
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Le hack Binance de 6 milliards, les craintes quantiques et une possible vente de 450M$ pèsent sur le sentiment malgré une résilience relative du prix et des fondamentaux stables de Tether.",
       "n_articles": 10,
       "action": "HOLD",
       "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
     },
     "ETH/USD": {
-      "price": 2237.99,
+      "price": 2264.87,
       "ta_signal": "SELL",
       "sentiment_score": -0.75,
-      "sentiment_reason": "Le hack massif de Binance impliquant l'upgrade Ethereum EIP-7702, les liquidations de $1.57B et la chute des prix créent un sentiment fortement négatif pour ETH/USD.",
+      "sentiment_reason": "Le hack Binance de 6 milliards lié à la Corée du Nord, amplifié par une faille EIP-7702 sur Ethereum, provoque liquidations massives et pression baissière sur ETH/USD.",
       "n_articles": 8,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 95.89,
+      "price": 95.43,
       "ta_signal": "SELL",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Partenariat Polygon-Solana pour les paiements en stablecoins via les banques signale une adoption institutionnelle positive.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "L'implication d'adresses SOL dans un piratage massif lié à la Corée du Nord ternit la confiance et pourrait entraîner des restrictions réglementaires.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.2437,
+      "price": 1.2534,
       "ta_signal": "SELL",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Selloff massif et liquidations pèsent sur le sentiment malgré des nouvelles institutionnelles neutres à positives comme la charte bancaire de Ripple",
-      "n_articles": 3,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Selloff massif avec 1,5 milliard de liquidations pèse sur XRP malgré une nouvelle légèrement positive pour Ripple",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
