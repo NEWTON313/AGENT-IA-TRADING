@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-01T05:51:03.672198+00:00",
+  "timestamp": "2026-11-02T05:51:36.149308+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 77738.87,
-      "ta_signal": "HOLD",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "Le hack Binance de 6 milliards, les craintes quantiques et une possible vente de 450M$ pèsent sur le sentiment malgré une résilience relative du prix et des fondamentaux stables de Tether.",
+      "price": 78256.97,
+      "ta_signal": "SELL",
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Le piratage massif de Binance et les failles de sécurité (BTCPay, THORChain) pèsent sur le sentiment, bien que le BTC résiste mieux que prévu autour de $79,000.",
       "n_articles": 10,
-      "action": "HOLD",
-      "reason": "Pas de croisement Supertrend haussier confirmé aujourd'hui — l'agent surveille."
+      "action": "SELL",
+      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2264.87,
+      "price": 2289.31,
       "ta_signal": "SELL",
-      "sentiment_score": -0.75,
-      "sentiment_reason": "Le hack Binance de 6 milliards lié à la Corée du Nord, amplifié par une faille EIP-7702 sur Ethereum, provoque liquidations massives et pression baissière sur ETH/USD.",
-      "n_articles": 8,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Hack massif lié à la Corée du Nord et blocage des swaps THORChain créent une perception négative pour ETH malgré une réponse coordonnée de sécurité.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 95.43,
+      "price": 94.92,
       "ta_signal": "SELL",
       "sentiment_score": -0.6,
-      "sentiment_reason": "L'implication d'adresses SOL dans un piratage massif lié à la Corée du Nord ternit la confiance et pourrait entraîner des restrictions réglementaires.",
-      "n_articles": 1,
+      "sentiment_reason": "Le hack Binance lié à la Corée du Nord et l'arrêt des swaps THORChain impliquant SOL créent un climat négatif pour le marché.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.2534,
+      "price": 1.2546,
       "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Selloff massif avec 1,5 milliard de liquidations pèse sur XRP malgré une nouvelle légèrement positive pour Ripple",
-      "n_articles": 2,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
