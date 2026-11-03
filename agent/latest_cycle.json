@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-02T05:51:36.149308+00:00",
+  "timestamp": "2026-11-03T06:33:50.522895+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 78256.97,
+      "price": 76657.18,
       "ta_signal": "SELL",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Le piratage massif de Binance et les failles de sécurité (BTCPay, THORChain) pèsent sur le sentiment, bien que le BTC résiste mieux que prévu autour de $79,000.",
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Chute du BTC sous 77K$, hack Mercado Bitcoin et utilisation des réserves SAFU de Binance pèsent sur le sentiment malgré des espoirs de rally post-électoral",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2289.31,
+      "price": 2250.39,
       "ta_signal": "SELL",
       "sentiment_score": -0.5,
-      "sentiment_reason": "Hack massif lié à la Corée du Nord et blocage des swaps THORChain créent une perception négative pour ETH malgré une réponse coordonnée de sécurité.",
+      "sentiment_reason": "Sorties record de 1,61 milliard $ des fonds Ether et perturbations liées au piratage Binance pèsent sur le sentiment ETH/USD",
       "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 94.92,
+      "price": 91.75,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "Le hack Binance lié à la Corée du Nord et l'arrêt des swaps THORChain impliquant SOL créent un climat négatif pour le marché.",
-      "n_articles": 2,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Les actualités évoquent des vols de fonds liés à Solana, des hacks massifs et un contexte baissier général du marché crypto, pesant sur le sentiment SOL/USD.",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.2546,
+      "price": 1.2498,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "La découverte d'une faille est négative, mais sa résolution proactive par XRP Ledger renforce la confiance dans la sécurité du réseau.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
