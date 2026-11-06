@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-05T06:30:25.600464+00:00",
+  "timestamp": "2026-11-06T06:25:21.764364+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 80453.12,
+      "price": 75516.0,
       "ta_signal": "SELL",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "Bitcoin rebondit au-dessus de 80 000$ porté par le rallye post-élections, malgré des risques persistants liés aux piratages d'échanges (Mercado Bitcoin, BitMart).",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Bitcoin a chuté fortement (crash de 6%, plus bas en 7 semaines, $76,000) suite à l'effondrement du trade IA et des actions, malgré quelques signaux d'achat à l'excès (oversold).",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2423.78,
+      "price": 2223.27,
       "ta_signal": "SELL",
-      "sentiment_score": 0.2,
-      "sentiment_reason": "Ether rallie et progresse techniquement, mais des doutes institutionnels et des tensions macro tempèrent l'optimisme.",
-      "n_articles": 6,
-      "action": "SELL",
-      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
-    },
-    "SOL/USD": {
-      "price": 95.88,
-      "ta_signal": "SELL",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "L'adoption institutionnelle via Schroders est positive mais contrebalancée par le blanchiment de SOL volé issu du hack Binance.",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Adoption institutionnelle (Amundi) et afflux ETF/rallye post-midterms sont positifs pour ETH, malgré des tensions réglementaires (CLARITY Act) non directement liées à ETH.",
       "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
+    "SOL/USD": {
+      "price": 89.55,
+      "ta_signal": "SELL",
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité ne concerne directement SOL/USD, ce sont des nouvelles sur VeChain, Bitcoin miners et IA sans lien direct avec Solana.",
+      "n_articles": 3,
+      "action": "SELL",
+      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
+    },
     "XRP/USD": {
-      "price": 1.3078,
+      "price": 1.196,
       "ta_signal": "SELL",
       "sentiment_score": 0.2,
-      "sentiment_reason": "La correction rapide d'une faille de sécurité est rassurante pour la robustesse du XRP Ledger, un signal légèrement positif.",
+      "sentiment_reason": "La correction rapide d'une faille de sécurité renforce la confiance dans le réseau XRP Ledger malgré la vulnérabilité initiale.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
