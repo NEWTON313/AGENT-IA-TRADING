@@ -1,35 +1,35 @@
 {
-  "timestamp": "2026-11-07T05:48:44.301417+00:00",
+  "timestamp": "2026-11-08T05:51:40.842538+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 75923.85,
+      "price": 75691.5,
       "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "BTC chute sous 75-76K avec sorties d'ETF massives et un hack de 6,3B$, malgré quelques signaux positifs comme l'achat de Strive et la régulation russe.",
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Bitcoin reste sous pression (chute sous 75-76K, sorties ETF, hack Binance) malgré des achats institutionnels et une régulation positive en Russie.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2245.91,
+      "price": 2231.3,
       "ta_signal": "SELL",
-      "sentiment_score": 0.1,
-      "sentiment_reason": "Adoption institutionnelle positive (Russie, Amundi) contrebalancée par des sorties d'ETF et des retards de développement Ethereum.",
-      "n_articles": 5,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Les sorties de capitaux des ETF et l'incertitude réglementaire pèsent, malgré des nouvelles positives comme l'adoption russe.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 90.08,
+      "price": 89.1,
       "ta_signal": "SELL",
       "sentiment_score": -0.5,
-      "sentiment_reason": "L'arrêt de l'événement Solana à Shanghai pour promotion non autorisée et le contexte macro négatif (crash KOSPI, craintes réglementaires) pèsent sur le sentiment SOL/USD.",
+      "sentiment_reason": "L'arrêt de l'événement Shanghai de Solana pour promotion non autorisée en Chine est négatif, aggravé par un contexte macro baissier (crash KOSPI, craintes réglementaires IA).",
       "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.1611,
+      "price": 1.161,
       "ta_signal": "SELL",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
