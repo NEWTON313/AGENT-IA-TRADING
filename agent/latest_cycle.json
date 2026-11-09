@@ -1,35 +1,35 @@
 {
-  "timestamp": "2026-11-08T05:51:40.842538+00:00",
+  "timestamp": "2026-11-09T06:04:34.259427+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 75691.5,
+      "price": 74463.5,
       "ta_signal": "SELL",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "Bitcoin reste sous pression (chute sous 75-76K, sorties ETF, hack Binance) malgré des achats institutionnels et une régulation positive en Russie.",
-      "n_articles": 10,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Volatilité accrue, mining pool en difficulté et incertitude post-midterms pèsent légèrement sur le sentiment malgré l'absence de catalyseur majeur négatif.",
+      "n_articles": 7,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2231.3,
+      "price": 2128.56,
       "ta_signal": "SELL",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Les sorties de capitaux des ETF et l'incertitude réglementaire pèsent, malgré des nouvelles positives comme l'adoption russe.",
-      "n_articles": 4,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Débats techniques sur Glamsterdam et pivot narratif de Vitalik créent incertitude, aggravés par un contexte crypto post-élections difficile.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 89.1,
+      "price": 86.54,
       "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "L'arrêt de l'événement Shanghai de Solana pour promotion non autorisée en Chine est négatif, aggravé par un contexte macro baissier (crash KOSPI, craintes réglementaires IA).",
-      "n_articles": 3,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.161,
+      "price": 1.0955,
       "ta_signal": "SELL",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
