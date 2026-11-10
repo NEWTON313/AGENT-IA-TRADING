@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-09T06:04:34.259427+00:00",
+  "timestamp": "2026-11-10T07:06:07.386150+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 74463.5,
+      "price": 74644.02,
       "ta_signal": "SELL",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Volatilité accrue, mining pool en difficulté et incertitude post-midterms pèsent légèrement sur le sentiment malgré l'absence de catalyseur majeur négatif.",
-      "n_articles": 7,
+      "sentiment_score": -0.35,
+      "sentiment_reason": "BTC proche de plus bas de 11 semaines avec ventes de miners et prudence sur CPI, mais achats de Strategy et rebond limité atténuent la négativité.",
+      "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2128.56,
+      "price": 2117.54,
       "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Débats techniques sur Glamsterdam et pivot narratif de Vitalik créent incertitude, aggravés par un contexte crypto post-élections difficile.",
-      "n_articles": 2,
+      "sentiment_score": -0.1,
+      "sentiment_reason": "Adoption institutionnelle (PNC/USDC) et résilience du réseau contrebalancées par pressions réglementaires et incertitude post-élections affectant le sentiment ETH",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 86.54,
+      "price": 86.09,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Nouvelle venue de trading tokenisé positive pour Solana, mais contexte macro BTC négatif et faille de sécurité exploitée dans le hack Drift pèsent sur le sentiment.",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.0955,
+      "price": 1.1029,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Annonce technologique positive montrant l'innovation du XRP Ledger en matière de sécurité quantique sans coûts supplémentaires pour les utilisateurs.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
