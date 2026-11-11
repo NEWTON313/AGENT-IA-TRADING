@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-10T07:06:07.386150+00:00",
+  "timestamp": "2026-11-11T05:58:16.509985+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 74644.02,
+      "price": 73853.23,
       "ta_signal": "SELL",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "BTC proche de plus bas de 11 semaines avec ventes de miners et prudence sur CPI, mais achats de Strategy et rebond limité atténuent la négativité.",
+      "sentiment_score": -0.5,
+      "sentiment_reason": "CPI plus élevé que prévu, anticipation de hausse des taux, sorties d'ETF et multiples hacks pèsent sur le sentiment malgré quelques avis optimistes à long terme.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2117.54,
+      "price": 2069.41,
       "ta_signal": "SELL",
-      "sentiment_score": -0.1,
-      "sentiment_reason": "Adoption institutionnelle (PNC/USDC) et résilience du réseau contrebalancées par pressions réglementaires et incertitude post-élections affectant le sentiment ETH",
-      "n_articles": 5,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Actualités mitigées : poursuite judiciaire contre la Fondation Ethereum et faille de sécurité iOS pèsent légèrement, sans impact fondamental majeur sur ETH.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 86.09,
+      "price": 83.32,
       "ta_signal": "SELL",
-      "sentiment_score": 0.2,
-      "sentiment_reason": "Nouvelle venue de trading tokenisé positive pour Solana, mais contexte macro BTC négatif et faille de sécurité exploitée dans le hack Drift pèsent sur le sentiment.",
-      "n_articles": 5,
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Adoption institutionnelle croissante avec des actions tokenisées sur Solana et expansion de Securitize, signaux positifs mais pas directement liés au prix SOL",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.1029,
+      "price": 1.0613,
       "ta_signal": "SELL",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "Annonce technologique positive montrant l'innovation du XRP Ledger en matière de sécurité quantique sans coûts supplémentaires pour les utilisateurs.",
-      "n_articles": 1,
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Changement de direction neutre chez Ripple Prime compensé par une innovation positive avec les comptes résistants au quantique sans frais supplémentaires.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
