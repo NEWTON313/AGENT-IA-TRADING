@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-12T07:00:05.387467+00:00",
+  "timestamp": "2026-11-13T06:26:54.655589+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 73425.04,
+      "price": 68663.69,
       "ta_signal": "SELL",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Signaux mixtes : adoption institutionnelle positive (Deutsche Bank, Barclays, Citigroup) contrebalancée par retrait d'indices MSCI, bug de sécurité et pression du marché malgré des prix stables.",
+      "sentiment_score": -0.65,
+      "sentiment_reason": "Bitcoin chute sous les 70K$ avec des sorties massives des ETF, une liquidité faible et plusieurs signaux baissiers convergents (Strategy, Nvidia, MSCI).",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 2042.55,
+      "price": 1930.54,
       "ta_signal": "SELL",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "Adoption institutionnelle positive (Deutsche Bank, CoreWeave) contrebalancée par une perte massive de Bitmine liée à la baisse du prix d'Ether.",
-      "n_articles": 3,
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Adoption croissante d'Ethereum par d'autres L1 et avancées sur la résistance quantique sont positives, mais la forte baisse des stablecoins tempère l'optimisme à court terme.",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 82.61,
+      "price": 79.59,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": 0.5,
+      "sentiment_reason": "L'intégration de Solana par DTCC pour la tokenisation et l'expansion de Jupiter renforcent l'adoption institutionnelle malgré un horizon 2027.",
+      "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.0403,
+      "price": 1.0239,
       "ta_signal": "SELL",
-      "sentiment_score": 0.2,
-      "sentiment_reason": "Avancée positive du système de prêt bancaire sur XRP Ledger, compensée par un changement de leadership neutre chez Ripple Prime.",
-      "n_articles": 2,
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
