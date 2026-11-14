@@ -1,35 +1,35 @@
 {
-  "timestamp": "2026-11-13T06:26:54.655589+00:00",
+  "timestamp": "2026-11-14T06:06:51.817399+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 68663.69,
+      "price": 67209.12,
       "ta_signal": "SELL",
-      "sentiment_score": -0.65,
-      "sentiment_reason": "Bitcoin chute sous les 70K$ avec des sorties massives des ETF, une liquidité faible et plusieurs signaux baissiers convergents (Strategy, Nvidia, MSCI).",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Bitcoin chute sous les seuils clés, enchaîne les pertes hebdomadaires et subit des signaux techniques baissiers malgré quelques nouvelles neutres sur la sécurité.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1930.54,
+      "price": 1903.98,
       "ta_signal": "SELL",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Adoption croissante d'Ethereum par d'autres L1 et avancées sur la résistance quantique sont positives, mais la forte baisse des stablecoins tempère l'optimisme à court terme.",
-      "n_articles": 5,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Vente forcée d'ETH à perte pour maintenir un prêt Aave suggère une pression financière et un sentiment négatif pour ETH.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 79.59,
+      "price": 75.88,
       "ta_signal": "SELL",
-      "sentiment_score": 0.5,
-      "sentiment_reason": "L'intégration de Solana par DTCC pour la tokenisation et l'expansion de Jupiter renforcent l'adoption institutionnelle malgré un horizon 2027.",
-      "n_articles": 3,
+      "sentiment_score": 0.4,
+      "sentiment_reason": "L'intégration de Solana par DTCC pour la tokenisation et l'expansion de Jupiter sont positives, mais l'horizon 2027 et les restrictions limitent l'impact immédiat.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 1.0239,
+      "price": 0.9972,
       "ta_signal": "SELL",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
