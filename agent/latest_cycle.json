@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-14T06:06:51.817399+00:00",
+  "timestamp": "2026-11-15T06:14:23.357273+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 67209.12,
+      "price": 64275.36,
       "ta_signal": "SELL",
       "sentiment_score": -0.6,
-      "sentiment_reason": "Bitcoin chute sous les seuils clés, enchaîne les pertes hebdomadaires et subit des signaux techniques baissiers malgré quelques nouvelles neutres sur la sécurité.",
+      "sentiment_reason": "Multiples signaux baissiers : crash sous $63k, sorties massives des ETF, pertes de Metaplanet et pression des mineurs, malgré quelques nouvelles neutres/positives sur l'infrastructure.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1903.98,
+      "price": 1788.31,
       "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Vente forcée d'ETH à perte pour maintenir un prêt Aave suggère une pression financière et un sentiment négatif pour ETH.",
-      "n_articles": 1,
-      "action": "SELL",
-      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
-    },
-    "SOL/USD": {
-      "price": 75.88,
-      "ta_signal": "SELL",
-      "sentiment_score": 0.4,
-      "sentiment_reason": "L'intégration de Solana par DTCC pour la tokenisation et l'expansion de Jupiter sont positives, mais l'horizon 2027 et les restrictions limitent l'impact immédiat.",
+      "sentiment_score": -0.4,
+      "sentiment_reason": "Licenciements chez MegaETH et vente forcée d'ETH par BTCS pour éviter une liquidation suggèrent un sentiment négatif malgré l'absence de panique générale.",
       "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
-    "XRP/USD": {
-      "price": 0.9972,
+    "SOL/USD": {
+      "price": 70.16,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": -0.15,
+      "sentiment_reason": "Actualités peu pertinentes pour SOL, mais la vente forcée d'ETH par BTCS reflète un stress de liquidité légèrement négatif pour le marché crypto global.",
+      "n_articles": 2,
+      "action": "SELL",
+      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
+    },
+    "XRP/USD": {
+      "price": 0.9515,
+      "ta_signal": "SELL",
+      "sentiment_score": -0.9,
+      "sentiment_reason": "XRP chute à son plus bas niveau depuis novembre 2024 en raison d'une sortie massive de capitaux du marché crypto.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
