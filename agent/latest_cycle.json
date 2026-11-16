@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-15T06:14:23.357273+00:00",
+  "timestamp": "2026-11-16T06:11:21.999422+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 64275.36,
+      "price": 64310.07,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "Multiples signaux baissiers : crash sous $63k, sorties massives des ETF, pertes de Metaplanet et pression des mineurs, malgré quelques nouvelles neutres/positives sur l'infrastructure.",
-      "n_articles": 10,
+      "sentiment_score": -0.75,
+      "sentiment_reason": "Multiples articles confirment un crash de Bitcoin vers des plus bas de plusieurs mois, des sorties massives des ETF et une vague de capitulation, signalant un sentiment très négatif.",
+      "n_articles": 9,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1788.31,
+      "price": 1808.69,
       "ta_signal": "SELL",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Licenciements chez MegaETH et vente forcée d'ETH par BTCS pour éviter une liquidation suggèrent un sentiment négatif malgré l'absence de panique générale.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Chute marquée du marché crypto (BTC à 4 mois de creux, ETH en forte baisse hebdomadaire) et licenciements chez MegaETH accentuent le sentiment négatif sur ETH/USD.",
       "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 70.16,
+      "price": 70.99,
       "ta_signal": "SELL",
-      "sentiment_score": -0.15,
-      "sentiment_reason": "Actualités peu pertinentes pour SOL, mais la vente forcée d'ETH par BTCS reflète un stress de liquidité légèrement négatif pour le marché crypto global.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Solana a subi des pertes hebdomadaires à deux chiffres dans le cadre d'un selloff crypto généralisé, signalant un sentiment baissier.",
       "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.9515,
+      "price": 0.9507,
       "ta_signal": "SELL",
-      "sentiment_score": -0.9,
-      "sentiment_reason": "XRP chute à son plus bas niveau depuis novembre 2024 en raison d'une sortie massive de capitaux du marché crypto.",
+      "sentiment_score": -0.8,
+      "sentiment_reason": "XRP chute à son plus bas niveau depuis novembre 2024 en raison de sorties de capitaux du marché crypto.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
