@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-16T06:11:21.999422+00:00",
+  "timestamp": "2026-11-17T07:45:42.823036+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 64310.07,
+      "price": 64519.61,
       "ta_signal": "SELL",
-      "sentiment_score": -0.75,
-      "sentiment_reason": "Multiples articles confirment un crash de Bitcoin vers des plus bas de plusieurs mois, des sorties massives des ETF et une vague de capitulation, signalant un sentiment très négatif.",
-      "n_articles": 9,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Craintes de hausse des taux Fed et inquiétudes liées à Nvidia font chuter Bitcoin sous 65K$ malgré des achats institutionnels continus (Strategy, BlackRock ETF).",
+      "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1808.69,
+      "price": 1825.12,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "Chute marquée du marché crypto (BTC à 4 mois de creux, ETH en forte baisse hebdomadaire) et licenciements chez MegaETH accentuent le sentiment négatif sur ETH/USD.",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "Accumulation institutionnelle continue (Bitmine, Harvard/Dartmouth) et optimisme de Vitalik sur la sécurité quantique compensent la mention d'un marché en baisse.",
       "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 70.99,
+      "price": 72.77,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "Solana a subi des pertes hebdomadaires à deux chiffres dans le cadre d'un selloff crypto généralisé, signalant un sentiment baissier.",
-      "n_articles": 2,
+      "sentiment_score": 0.6,
+      "sentiment_reason": "Adoption majeure par Zelle et maturité du réseau (fin du label beta) renforcent la confiance, tandis que Dartmouth maintient ses positions Solana.",
+      "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.9507,
+      "price": 0.9588,
       "ta_signal": "SELL",
-      "sentiment_score": -0.8,
-      "sentiment_reason": "XRP chute à son plus bas niveau depuis novembre 2024 en raison de sorties de capitaux du marché crypto.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Une dépréciation de 60% des avoirs XRP pré-cotation par Evernorth signale une perte de valeur significative et une confiance affaiblie dans l'actif.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
