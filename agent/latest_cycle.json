@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-17T07:45:42.823036+00:00",
+  "timestamp": "2026-11-18T07:11:28.278440+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 64519.61,
+      "price": 64686.89,
       "ta_signal": "SELL",
       "sentiment_score": -0.5,
-      "sentiment_reason": "Craintes de hausse des taux Fed et inquiétudes liées à Nvidia font chuter Bitcoin sous 65K$ malgré des achats institutionnels continus (Strategy, BlackRock ETF).",
+      "sentiment_reason": "Marché en correction avec chute de 12%, pertes réalisées élevées et doutes sur les gains futurs, malgré une pause temporaire des sorties ETF.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1825.12,
+      "price": 1813.59,
       "ta_signal": "SELL",
-      "sentiment_score": 0.3,
-      "sentiment_reason": "Accumulation institutionnelle continue (Bitmine, Harvard/Dartmouth) et optimisme de Vitalik sur la sécurité quantique compensent la mention d'un marché en baisse.",
-      "n_articles": 4,
+      "sentiment_score": 0.15,
+      "sentiment_reason": "Accumulation institutionnelle (Goldman, Bitmine) et victoire judiciaire positives, contrebalancées par un hack de 63M$ et des risques réglementaires/techniques",
+      "n_articles": 8,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 72.77,
+      "price": 75.02,
       "ta_signal": "SELL",
-      "sentiment_score": 0.6,
-      "sentiment_reason": "Adoption majeure par Zelle et maturité du réseau (fin du label beta) renforcent la confiance, tandis que Dartmouth maintient ses positions Solana.",
+      "sentiment_score": 0.3,
+      "sentiment_reason": "L'acquisition majoritaire de CoinGecko par Solana Foundation est positive, mais contrebalancée par la vente d'ETF Solana par ARK.",
       "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.9588,
+      "price": 0.99,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "Une dépréciation de 60% des avoirs XRP pré-cotation par Evernorth signale une perte de valeur significative et une confiance affaiblie dans l'actif.",
+      "sentiment_score": 0.2,
+      "sentiment_reason": "Les baleines ont déplacé des fonds sans les envoyer vers des exchanges, ce qui suggère une absence d'intention de vente massive malgré le selloff.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
