@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-18T07:11:28.278440+00:00",
+  "timestamp": "2026-11-19T07:12:37.737952+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 64686.89,
+      "price": 63568.26,
       "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Marché en correction avec chute de 12%, pertes réalisées élevées et doutes sur les gains futurs, malgré une pause temporaire des sorties ETF.",
+      "sentiment_score": -0.4,
+      "sentiment_reason": "Pressions haussières sur les taux Fed, ventes massives de BTC par les mineurs et besoins de liquidité pèsent sur le sentiment malgré quelques investissements positifs dans l'écosystème crypto.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1813.59,
+      "price": 1801.89,
       "ta_signal": "SELL",
-      "sentiment_score": 0.15,
-      "sentiment_reason": "Accumulation institutionnelle (Goldman, Bitmine) et victoire judiciaire positives, contrebalancées par un hack de 63M$ et des risques réglementaires/techniques",
-      "n_articles": 8,
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Vente de trésorerie ETH par CoinShares, hack de vault et acquittement MEV soulignent des risques persistants malgré l'absence de catalyseur haussier clair.",
+      "n_articles": 7,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 75.02,
+      "price": 74.92,
       "ta_signal": "SELL",
       "sentiment_score": 0.3,
-      "sentiment_reason": "L'acquisition majoritaire de CoinGecko par Solana Foundation est positive, mais contrebalancée par la vente d'ETF Solana par ARK.",
-      "n_articles": 3,
+      "sentiment_reason": "Solana sortie de beta et hausse de 7% compensent partiellement la vente de la moitié des positions SOL par CoinShares.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.99,
+      "price": 0.9811,
       "ta_signal": "SELL",
       "sentiment_score": 0.2,
-      "sentiment_reason": "Les baleines ont déplacé des fonds sans les envoyer vers des exchanges, ce qui suggère une absence d'intention de vente massive malgré le selloff.",
+      "sentiment_reason": "Les baleines déplacent des fonds hors des exchanges pendant la baisse, suggérant une absence de pression vendeuse immédiate, signal légèrement positif.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
