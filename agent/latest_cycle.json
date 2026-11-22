@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-21T06:55:55.880464+00:00",
+  "timestamp": "2026-11-22T06:32:32.211546+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 57619.76,
+      "price": 58890.25,
       "ta_signal": "SELL",
-      "sentiment_score": -0.8,
-      "sentiment_reason": "Chute prolongée du Bitcoin sous plusieurs seuils clés, entraînée par le selloff des actions tech et une aversion au risque généralisée.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Multiples articles confirment une chute de Bitcoin sous plusieurs seuils clés (60K, 59K, 57K) avec liquidations massives et vente généralisée des marchés tech, signalant un sentiment baissier dominant.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1636.7,
+      "price": 1656.12,
       "ta_signal": "SELL",
-      "sentiment_score": -0.25,
-      "sentiment_reason": "Report du upgrade Glamsterdam à 2027 et piratage Binance de 600M$ en ETH pèsent sur le sentiment malgré des développements neutres comme Fairmint",
-      "n_articles": 7,
-      "action": "SELL",
-      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
-    },
-    "SOL/USD": {
-      "price": 68.02,
-      "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Changement de custodian ETF neutre à légèrement négatif et avertissement sur la lenteur/sécurité post-quantique de Solana pèsent sur le sentiment.",
+      "sentiment_score": -0.4,
+      "sentiment_reason": "Risques de liquidation chez BTCS et mouvement de fonds volés liés au piratage Binance pèsent sur le sentiment, partiellement compensés par l'initiative Fairmint positive.",
       "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
+    "SOL/USD": {
+      "price": 68.9,
+      "ta_signal": "SELL",
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
+      "action": "SELL",
+      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
+    },
     "XRP/USD": {
-      "price": 0.8976,
+      "price": 0.9141,
       "ta_signal": "SELL",
       "sentiment_score": -0.7,
-      "sentiment_reason": "XRP chute de 10% avec dénouement des positions longues et baisse des actifs ETF sous 1 milliard $, signalant un sentiment négatif.",
+      "sentiment_reason": "Chute de 10% de XRP avec débouclement de positions longues et baisse des actifs ETF sous 1 milliard $, signalant un sentiment baissier marqué.",
       "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
