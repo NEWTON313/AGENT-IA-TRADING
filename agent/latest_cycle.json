@@ -1,35 +1,35 @@
 {
-  "timestamp": "2026-11-23T07:22:53.762995+00:00",
+  "timestamp": "2026-11-24T09:43:15.627625+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 61393.4,
+      "price": 60118.2,
       "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Rebond de Bitcoin après liquidations et krach, mais entouré de pertes, risques de liquidation et incidents négatifs.",
-      "n_articles": 8,
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Vente massive et sorties d'ETF pèsent sur le marché, malgré un léger rebond et des nouvelles institutionnelles positives isolées.",
+      "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1722.3,
+      "price": 1690.1,
       "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Exploit de bridge CYBER et risque de liquidation d'un prêt Aave de 54M$ par BTCS pèsent négativement sur le sentiment ETH",
-      "n_articles": 2,
+      "sentiment_score": -0.25,
+      "sentiment_reason": "Signaux mixtes : reconnaissance réglementaire positive (CFTC) contrebalancée par ventes forcées d'ETH, menace quantique et risques techniques liés à la prochaine mise à niveau.",
+      "n_articles": 4,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 72.08,
+      "price": 70.92,
       "ta_signal": "SELL",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "Exploit suspecté sur un pont lié à Solana pouvant nuire à la confiance dans l'écosystème SOL, article Bitcoin non pertinent pour SOL/USD.",
+      "sentiment_score": -0.3,
+      "sentiment_reason": "Désendettement forcé et vente sous pression d'ETH suggèrent une pression baissière générale sur le marché crypto, affectant indirectement SOL.",
       "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.9417,
+      "price": 0.9364,
       "ta_signal": "SELL",
       "sentiment_score": 0.0,
       "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
