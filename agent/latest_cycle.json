@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-24T09:43:15.627625+00:00",
+  "timestamp": "2026-11-25T08:17:10.013752+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 60118.2,
+      "price": 58782.63,
       "ta_signal": "SELL",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "Vente massive et sorties d'ETF pèsent sur le marché, malgré un léger rebond et des nouvelles institutionnelles positives isolées.",
+      "sentiment_score": -0.6,
+      "sentiment_reason": "Vente massive de BTC, sorties record des ETF, craintes tarifaires et marché baissier prolongé dominent malgré quelques signaux d'achat à bas prix.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1690.1,
+      "price": 1635.87,
       "ta_signal": "SELL",
-      "sentiment_score": -0.25,
-      "sentiment_reason": "Signaux mixtes : reconnaissance réglementaire positive (CFTC) contrebalancée par ventes forcées d'ETH, menace quantique et risques techniques liés à la prochaine mise à niveau.",
-      "n_articles": 4,
+      "sentiment_score": -0.2,
+      "sentiment_reason": "Ventes forcées d'ETH par BTCS pour rembourser une dette pèsent sur le sentiment, partiellement compensées par des nouvelles institutionnelles positives (CFTC, SNB, Ethereum Foundation).",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 70.92,
+      "price": 67.65,
       "ta_signal": "SELL",
-      "sentiment_score": -0.3,
-      "sentiment_reason": "Désendettement forcé et vente sous pression d'ETH suggèrent une pression baissière générale sur le marché crypto, affectant indirectement SOL.",
-      "n_articles": 2,
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Peu d'actualités directement liées à SOL, mais le bug/arrêt de trading sur le DEX Solana Velocity et le climat baissier général du marché crypto pèsent négativement.",
+      "n_articles": 8,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.9364,
+      "price": 0.9134,
       "ta_signal": "SELL",
-      "sentiment_score": 0.0,
-      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
-      "n_articles": 0,
+      "sentiment_score": -0.4,
+      "sentiment_reason": "La concentration de la croissance du trading sur seulement 10 comptes suggère un manque d'adoption organique et de décentralisation sur le XRP Ledger.",
+      "n_articles": 1,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
