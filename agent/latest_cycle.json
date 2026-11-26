@@ -1,39 +1,39 @@
 {
-  "timestamp": "2026-11-25T08:17:10.013752+00:00",
+  "timestamp": "2026-11-26T08:02:52.738858+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 58782.63,
+      "price": 60517.13,
       "ta_signal": "SELL",
       "sentiment_score": -0.6,
-      "sentiment_reason": "Vente massive de BTC, sorties record des ETF, craintes tarifaires et marché baissier prolongé dominent malgré quelques signaux d'achat à bas prix.",
+      "sentiment_reason": "Inflation élevée, craintes tarifaires, chute du Bitcoin vers 57K et attaques de mining pèsent sur le sentiment malgré quelques nouvelles neutres.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1635.87,
+      "price": 1688.82,
       "ta_signal": "SELL",
-      "sentiment_score": -0.2,
-      "sentiment_reason": "Ventes forcées d'ETH par BTCS pour rembourser une dette pèsent sur le sentiment, partiellement compensées par des nouvelles institutionnelles positives (CFTC, SNB, Ethereum Foundation).",
-      "n_articles": 5,
+      "sentiment_score": -0.5,
+      "sentiment_reason": "Vente massive des actions entraînant une chute accentuée d'ETH, aggravée par un risque réglementaire accru du Sénat, partiellement compensé par une actualité neutre sur la sécurité technique.",
+      "n_articles": 3,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "SOL/USD": {
-      "price": 67.65,
+      "price": 70.8,
       "ta_signal": "SELL",
-      "sentiment_score": -0.35,
-      "sentiment_reason": "Peu d'actualités directement liées à SOL, mais le bug/arrêt de trading sur le DEX Solana Velocity et le climat baissier général du marché crypto pèsent négativement.",
-      "n_articles": 8,
+      "sentiment_score": 0.15,
+      "sentiment_reason": "L'adoption institutionnelle (SBI/SMFG) et les améliorations techniques sont contrebalancées par un bug de sécurité sur un DEX Solana.",
+      "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "XRP/USD": {
-      "price": 0.9134,
+      "price": 0.9527,
       "ta_signal": "SELL",
-      "sentiment_score": -0.4,
-      "sentiment_reason": "La concentration de la croissance du trading sur seulement 10 comptes suggère un manque d'adoption organique et de décentralisation sur le XRP Ledger.",
-      "n_articles": 1,
+      "sentiment_score": -0.1,
+      "sentiment_reason": "Valorisations divergentes de Ripple et concentration du trading sur peu de comptes suggèrent une incertitude et un manque de profondeur de marché.",
+      "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     }
