@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-11-26T08:02:52.738858+00:00",
+  "timestamp": "2026-11-27T08:09:21.984502+00:00",
   "assets": {
     "BTC/USD": {
-      "price": 60517.13,
+      "price": 61833.51,
       "ta_signal": "SELL",
-      "sentiment_score": -0.6,
-      "sentiment_reason": "Inflation élevée, craintes tarifaires, chute du Bitcoin vers 57K et attaques de mining pèsent sur le sentiment malgré quelques nouvelles neutres.",
+      "sentiment_score": -0.35,
+      "sentiment_reason": "Les sorties massives des ETF Bitcoin et la liquidité faible pèsent sur le sentiment malgré quelques signaux positifs comme le nouvel ETF suisse.",
       "n_articles": 10,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
     "ETH/USD": {
-      "price": 1688.82,
-      "ta_signal": "SELL",
-      "sentiment_score": -0.5,
-      "sentiment_reason": "Vente massive des actions entraînant une chute accentuée d'ETH, aggravée par un risque réglementaire accru du Sénat, partiellement compensé par une actualité neutre sur la sécurité technique.",
-      "n_articles": 3,
-      "action": "SELL",
-      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
-    },
-    "SOL/USD": {
-      "price": 70.8,
+      "price": 1735.5,
       "ta_signal": "SELL",
       "sentiment_score": 0.15,
-      "sentiment_reason": "L'adoption institutionnelle (SBI/SMFG) et les améliorations techniques sont contrebalancées par un bug de sécurité sur un DEX Solana.",
+      "sentiment_reason": "Progrès technique positif sur l'upgrade Glamsterdam, mais contrebalancé par des risques réglementaires (Japon, UE, SEC) qui pèsent sur le sentiment global.",
       "n_articles": 5,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
     },
-    "XRP/USD": {
-      "price": 0.9527,
+    "SOL/USD": {
+      "price": 73.25,
       "ta_signal": "SELL",
-      "sentiment_score": -0.1,
-      "sentiment_reason": "Valorisations divergentes de Ripple et concentration du trading sur peu de comptes suggèrent une incertitude et un manque de profondeur de marché.",
+      "sentiment_score": 0.0,
+      "sentiment_reason": "Aucune actualité récente trouvée pour cet actif.",
+      "n_articles": 0,
+      "action": "SELL",
+      "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
+    },
+    "XRP/USD": {
+      "price": 0.9769,
+      "ta_signal": "SELL",
+      "sentiment_score": 0.4,
+      "sentiment_reason": "Expansion du prêt sur XRP Ledger et valorisations divergentes mais globalement positives suggèrent un sentiment légèrement haussier.",
       "n_articles": 2,
       "action": "SELL",
       "reason": "Signal baissier (Supertrend ou tendance weekly retournés) — sortie de position."
